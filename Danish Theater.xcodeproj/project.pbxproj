@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35C2C5C91F0169FD008AEFFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C2C5C81F0169FD008AEFFD /* main.m */; };
+		35C2C5CC1F0169FD008AEFFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C2C5CB1F0169FD008AEFFD /* AppDelegate.m */; };
+		35C2C5CF1F0169FD008AEFFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C2C5CE1F0169FD008AEFFD /* ViewController.m */; };
+		35C2C5D21F0169FD008AEFFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35C2C5D01F0169FD008AEFFD /* Main.storyboard */; };
+		35C2C5D41F0169FD008AEFFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35C2C5D31F0169FD008AEFFD /* Assets.xcassets */; };
+		35C2C5D71F0169FD008AEFFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35C2C5D51F0169FD008AEFFD /* LaunchScreen.storyboard */; };
+		35C2C5E21F0169FD008AEFFD /* Danish_TheaterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C2C5E11F0169FD008AEFFD /* Danish_TheaterTests.m */; };
+		35C2C5ED1F0169FD008AEFFD /* Danish_TheaterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C2C5EC1F0169FD008AEFFD /* Danish_TheaterUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35C2C5DE1F0169FD008AEFFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35C2C5BC1F0169FC008AEFFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35C2C5C31F0169FC008AEFFD;
+			remoteInfo = "Danish Theater";
+		};
+		35C2C5E91F0169FD008AEFFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35C2C5BC1F0169FC008AEFFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35C2C5C31F0169FC008AEFFD;
+			remoteInfo = "Danish Theater";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35C2C5C41F0169FD008AEFFD /* Danish Theater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Danish Theater.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35C2C5C81F0169FD008AEFFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35C2C5CA1F0169FD008AEFFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		35C2C5CB1F0169FD008AEFFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		35C2C5CD1F0169FD008AEFFD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		35C2C5CE1F0169FD008AEFFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		35C2C5D11F0169FD008AEFFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35C2C5D31F0169FD008AEFFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35C2C5D61F0169FD008AEFFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35C2C5D81F0169FD008AEFFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35C2C5DD1F0169FD008AEFFD /* Danish TheaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Danish TheaterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35C2C5E11F0169FD008AEFFD /* Danish_TheaterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Danish_TheaterTests.m; sourceTree = "<group>"; };
+		35C2C5E31F0169FD008AEFFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35C2C5E81F0169FD008AEFFD /* Danish TheaterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Danish TheaterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35C2C5EC1F0169FD008AEFFD /* Danish_TheaterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Danish_TheaterUITests.m; sourceTree = "<group>"; };
+		35C2C5EE1F0169FD008AEFFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35C2C5C11F0169FC008AEFFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35C2C5DA1F0169FD008AEFFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35C2C5E51F0169FD008AEFFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35C2C5BB1F0169FC008AEFFD = {
+			isa = PBXGroup;
+			children = (
+				35C2C5C61F0169FD008AEFFD /* Danish Theater */,
+				35C2C5E01F0169FD008AEFFD /* Danish TheaterTests */,
+				35C2C5EB1F0169FD008AEFFD /* Danish TheaterUITests */,
+				35C2C5C51F0169FD008AEFFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35C2C5C51F0169FD008AEFFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35C2C5C41F0169FD008AEFFD /* Danish Theater.app */,
+				35C2C5DD1F0169FD008AEFFD /* Danish TheaterTests.xctest */,
+				35C2C5E81F0169FD008AEFFD /* Danish TheaterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35C2C5C61F0169FD008AEFFD /* Danish Theater */ = {
+			isa = PBXGroup;
+			children = (
+				35C2C5CA1F0169FD008AEFFD /* AppDelegate.h */,
+				35C2C5CB1F0169FD008AEFFD /* AppDelegate.m */,
+				35C2C5CD1F0169FD008AEFFD /* ViewController.h */,
+				35C2C5CE1F0169FD008AEFFD /* ViewController.m */,
+				35C2C5D01F0169FD008AEFFD /* Main.storyboard */,
+				35C2C5D31F0169FD008AEFFD /* Assets.xcassets */,
+				35C2C5D51F0169FD008AEFFD /* LaunchScreen.storyboard */,
+				35C2C5D81F0169FD008AEFFD /* Info.plist */,
+				35C2C5C71F0169FD008AEFFD /* Supporting Files */,
+			);
+			path = "Danish Theater";
+			sourceTree = "<group>";
+		};
+		35C2C5C71F0169FD008AEFFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				35C2C5C81F0169FD008AEFFD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		35C2C5E01F0169FD008AEFFD /* Danish TheaterTests */ = {
+			isa = PBXGroup;
+			children = (
+				35C2C5E11F0169FD008AEFFD /* Danish_TheaterTests.m */,
+				35C2C5E31F0169FD008AEFFD /* Info.plist */,
+			);
+			path = "Danish TheaterTests";
+			sourceTree = "<group>";
+		};
+		35C2C5EB1F0169FD008AEFFD /* Danish TheaterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				35C2C5EC1F0169FD008AEFFD /* Danish_TheaterUITests.m */,
+				35C2C5EE1F0169FD008AEFFD /* Info.plist */,
+			);
+			path = "Danish TheaterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35C2C5C31F0169FC008AEFFD /* Danish Theater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35C2C5F11F0169FD008AEFFD /* Build configuration list for PBXNativeTarget "Danish Theater" */;
+			buildPhases = (
+				35C2C5C01F0169FC008AEFFD /* Sources */,
+				35C2C5C11F0169FC008AEFFD /* Frameworks */,
+				35C2C5C21F0169FC008AEFFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Danish Theater";
+			productName = "Danish Theater";
+			productReference = 35C2C5C41F0169FD008AEFFD /* Danish Theater.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35C2C5DC1F0169FD008AEFFD /* Danish TheaterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35C2C5F41F0169FD008AEFFD /* Build configuration list for PBXNativeTarget "Danish TheaterTests" */;
+			buildPhases = (
+				35C2C5D91F0169FD008AEFFD /* Sources */,
+				35C2C5DA1F0169FD008AEFFD /* Frameworks */,
+				35C2C5DB1F0169FD008AEFFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35C2C5DF1F0169FD008AEFFD /* PBXTargetDependency */,
+			);
+			name = "Danish TheaterTests";
+			productName = "Danish TheaterTests";
+			productReference = 35C2C5DD1F0169FD008AEFFD /* Danish TheaterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		35C2C5E71F0169FD008AEFFD /* Danish TheaterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35C2C5F71F0169FD008AEFFD /* Build configuration list for PBXNativeTarget "Danish TheaterUITests" */;
+			buildPhases = (
+				35C2C5E41F0169FD008AEFFD /* Sources */,
+				35C2C5E51F0169FD008AEFFD /* Frameworks */,
+				35C2C5E61F0169FD008AEFFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35C2C5EA1F0169FD008AEFFD /* PBXTargetDependency */,
+			);
+			name = "Danish TheaterUITests";
+			productName = "Danish TheaterUITests";
+			productReference = 35C2C5E81F0169FD008AEFFD /* Danish TheaterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35C2C5BC1F0169FC008AEFFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Daniel Ran Lehmann";
+				TargetAttributes = {
+					35C2C5C31F0169FC008AEFFD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 655US6229G;
+						ProvisioningStyle = Automatic;
+					};
+					35C2C5DC1F0169FD008AEFFD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 655US6229G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 35C2C5C31F0169FC008AEFFD;
+					};
+					35C2C5E71F0169FD008AEFFD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 655US6229G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 35C2C5C31F0169FC008AEFFD;
+					};
+				};
+			};
+			buildConfigurationList = 35C2C5BF1F0169FC008AEFFD /* Build configuration list for PBXProject "Danish Theater" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35C2C5BB1F0169FC008AEFFD;
+			productRefGroup = 35C2C5C51F0169FD008AEFFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35C2C5C31F0169FC008AEFFD /* Danish Theater */,
+				35C2C5DC1F0169FD008AEFFD /* Danish TheaterTests */,
+				35C2C5E71F0169FD008AEFFD /* Danish TheaterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35C2C5C21F0169FC008AEFFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C2C5D71F0169FD008AEFFD /* LaunchScreen.storyboard in Resources */,
+				35C2C5D41F0169FD008AEFFD /* Assets.xcassets in Resources */,
+				35C2C5D21F0169FD008AEFFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35C2C5DB1F0169FD008AEFFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35C2C5E61F0169FD008AEFFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35C2C5C01F0169FC008AEFFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C2C5CF1F0169FD008AEFFD /* ViewController.m in Sources */,
+				35C2C5CC1F0169FD008AEFFD /* AppDelegate.m in Sources */,
+				35C2C5C91F0169FD008AEFFD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35C2C5D91F0169FD008AEFFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C2C5E21F0169FD008AEFFD /* Danish_TheaterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35C2C5E41F0169FD008AEFFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C2C5ED1F0169FD008AEFFD /* Danish_TheaterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35C2C5DF1F0169FD008AEFFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35C2C5C31F0169FC008AEFFD /* Danish Theater */;
+			targetProxy = 35C2C5DE1F0169FD008AEFFD /* PBXContainerItemProxy */;
+		};
+		35C2C5EA1F0169FD008AEFFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35C2C5C31F0169FC008AEFFD /* Danish Theater */;
+			targetProxy = 35C2C5E91F0169FD008AEFFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		35C2C5D01F0169FD008AEFFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35C2C5D11F0169FD008AEFFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		35C2C5D51F0169FD008AEFFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35C2C5D61F0169FD008AEFFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35C2C5EF1F0169FD008AEFFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		35C2C5F01F0169FD008AEFFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35C2C5F21F0169FD008AEFFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 655US6229G;
+				INFOPLIST_FILE = "Danish Theater/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danielranlehmann.Danish-Theater";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		35C2C5F31F0169FD008AEFFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 655US6229G;
+				INFOPLIST_FILE = "Danish Theater/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danielranlehmann.Danish-Theater";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		35C2C5F51F0169FD008AEFFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 655US6229G;
+				INFOPLIST_FILE = "Danish TheaterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danielranlehmann.Danish-TheaterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Danish Theater.app/Danish Theater";
+			};
+			name = Debug;
+		};
+		35C2C5F61F0169FD008AEFFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 655US6229G;
+				INFOPLIST_FILE = "Danish TheaterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danielranlehmann.Danish-TheaterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Danish Theater.app/Danish Theater";
+			};
+			name = Release;
+		};
+		35C2C5F81F0169FD008AEFFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 655US6229G;
+				INFOPLIST_FILE = "Danish TheaterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danielranlehmann.Danish-TheaterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Danish Theater";
+			};
+			name = Debug;
+		};
+		35C2C5F91F0169FD008AEFFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 655US6229G;
+				INFOPLIST_FILE = "Danish TheaterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danielranlehmann.Danish-TheaterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Danish Theater";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35C2C5BF1F0169FC008AEFFD /* Build configuration list for PBXProject "Danish Theater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35C2C5EF1F0169FD008AEFFD /* Debug */,
+				35C2C5F01F0169FD008AEFFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35C2C5F11F0169FD008AEFFD /* Build configuration list for PBXNativeTarget "Danish Theater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35C2C5F21F0169FD008AEFFD /* Debug */,
+				35C2C5F31F0169FD008AEFFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		35C2C5F41F0169FD008AEFFD /* Build configuration list for PBXNativeTarget "Danish TheaterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35C2C5F51F0169FD008AEFFD /* Debug */,
+				35C2C5F61F0169FD008AEFFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		35C2C5F71F0169FD008AEFFD /* Build configuration list for PBXNativeTarget "Danish TheaterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35C2C5F81F0169FD008AEFFD /* Debug */,
+				35C2C5F91F0169FD008AEFFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35C2C5BC1F0169FC008AEFFD /* Project object */;
+}
