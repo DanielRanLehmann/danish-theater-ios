@@ -1,0 +1,6 @@
+framework module Geokeys {
+  umbrella header "Geokeys-umbrella.h"
+
+  export *
+  module * { export * }
+}

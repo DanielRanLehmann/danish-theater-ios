@@ -1,0 +1,6 @@
+framework module Pods_Danish_Theater {
+  umbrella header "Pods-Danish Theater-umbrella.h"
+
+  export *
+  module * { export * }
+}
