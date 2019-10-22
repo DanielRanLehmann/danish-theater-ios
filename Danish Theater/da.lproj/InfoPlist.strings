@@ -1,0 +1,15 @@
+/* 
+  InfoPlist.strings
+  Danish Theater
+
+  Created by Daniel Ran Lehmann on 8/8/17.
+  Copyright © 2017 Daniel Ran Lehmann. All rights reserved.
+*/
+
+CFBundleDisplayName = "Dansk Teater";
+NSLocationUsageDescription = "Appen bruger din lokation til at finde begivenheder nær dig.";
+NSCalendarsUsageDescription = "Appen anmoder om adgang til din kalender så du kan tilføje begivenheder.";
+
+// Quick Actions Localized strings
+SHORTCUT_ITEM_TITLE_SEARCH = "Søg";
+SHORTCUT_ITEM_TITLE_FAVORITES = "Favoritter";

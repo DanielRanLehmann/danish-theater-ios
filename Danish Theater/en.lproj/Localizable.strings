@@ -1,0 +1,149 @@
+/* 
+  Localizable.strings
+  Danish Theater
+
+  Created by Daniel Ran Lehmann on 8/7/17.
+  Copyright © 2017 Daniel Ran Lehmann. All rights reserved.
+*/
+
+"APP_NAME" = "Danish Theater";
+
+"HOMEPAGE_TITLE" = "Homepage";
+"CALENDAR_TITLE" = "Calendar";
+"GENRES_TITLE" = "Genres";
+"SEARCH_TITLE" = "Search";
+"KIDS_TITLE" = "Kids & Teens"; // or Kids & Adolscents // or Kids & Family
+
+// HOMEPAGE - SHORTCUT TITLES
+"GENRES_SHORTCUT_TITLE" = "Genres";
+"CALENDAR_SHORTCUT_TITLE" = "Calendar";
+"MAP_SHORTCUT_TITLE" = "Map";
+"PODCAST_SHORTCUT_TITLE" = "Podcast - Den 4. Væg";
+
+"MUNICIPALITIES_NAVBAR_TITLE" = "Municipalities";
+"LOADING_NAVBAR_TITLE" = "Loading";
+"FAVORITES_NAVBAR_TITLE" = "Favorites";
+
+// bar button items
+"CLEAR_ALL_ITEM_TITLE" = "Clear All";
+"CANCEL_ITEM_TITLE" = "Cancel";
+"BACK_ITEM_TITLE" = "Back";
+"FAVORITES_ITEM_TITLE" = "Favorites";
+
+// BOOLS
+"YES" = "Yes";
+"NO" = "No";
+
+// EVENT DETAIL VIEWCONTROLLER
+"BOOK_BTN_TITLE" = "Book Tickets";
+"FREE_TEXT" = "Free";
+
+"DESCRIPTION_HEADER_TITLE" = "Description";
+"DESCRIPTION_TEXT_EMPTY" = "No Description";
+
+"MORE_LINK_TEXT" = "more";
+
+"INFORMATION_HEADER_TITLE" = "Information";
+
+"DURATION_TEXT" = "Duration";
+"DURATION_TEXT_EMPTY" = "No Duration";
+"DURATION_DETAIL_TEXT_SUFFIX" = "minutes";
+
+"AGE_RANGE_TEXT" = "Age Range";
+
+// used in information cell and kids sections.
+"YEARS_AND_UP_SUFFIX_TEXT" = "years and up";
+"YEARS_SUFFIX_TEXT" = "years";
+"EVERYBODY_SUFFIX_TEXT" = "Primarly For Adults"; //"Everybody";
+
+"WEBSITE_TEXT" = "Website";
+
+"GENRE_TEXT" = "Genre";
+
+"SUBGENRE_TEXT" = "Subgenre";
+
+"INTERMISSION_TEXT" = "Intermission";
+"VERBAL_TEXT" = "Verbal";
+"NUMBERED_SEATS_TEXT" = "Numbered Seats";
+
+"RELEASE_DATE_TEXT" = "Release Date";
+
+"SERVICES_TEXT" = "Services";
+
+"CREDITS_TEXT" = "Credits";
+
+"SHOWS_TEXT" = "Shows";
+
+"TICKET_OFFICE_TEXT" = "Ticket Office";
+
+"NONE_TEXT" = "None";
+
+"YOU_MAY_ALSO_LIKE_HEADER_TITLE" = "You May Also Like";
+
+// --> TICKET OFFICE ALERT CONTROLLER
+"ALERT_ACTION_TITLE_CALL" = "Call";
+"TICKET_OFFICE_ALERT_CONTROLLER_MESSAGE" = "Additional charges may apply.";
+
+// ALERT ACTION TITLES
+"ALERT_ACTION_TITLE_OPEN" = "Open";
+"ALERT_ACTION_TITLE_SHARE" = "Share";
+"ALERT_ACTION_TITLE_FAVORITE" = "Favorite";
+"ALERT_ACTION_TITLE_UNFAVORITE" = "Unfavorite";
+"ALERT_ACTION_TITLE_CANCEL" = "Cancel";
+
+// SHOW ALERT SPECIFIC
+"ALERT_ACTION_TITLE_VIEW_EVENT" = "View Event";
+"ALERT_ACTION_TITLE_VIEW_THEATER" = "View Theater";
+"ALERT_ACTION_TITLE_ADD_TO_CALENDAR" = "Add To Calendar";
+
+// ORGANIZATION DETAIL VIEWCONTROLLER
+"SEGMENTED_CONTROL_ITEM_TITLE_UPCOMING" = "Upcoming";
+"SEGMENTED_CONTROL_ITEM_TITLE_EVENTS" = "Events";
+"SEGMENTED_CONTROL_ITEM_TITLE_OTHER" = "Other";
+
+// --> ABOUT SEGMENT
+"GENERAL_MANANGER_TEXT" = "General Manager";
+"ARTISTIC_DIRECTOR_TEXT" = "Artistic Director";
+"FOUNDED_ON_TEXT" = "Founded On";
+
+// CALENDAR VIEW CONTROLLER
+
+"TABLEVIEW_SECTION_TITLE_TODAY" = "Today";
+"TABLEVIEW_SECTION_TITLE_TOMORROW" = "Tomorrow";
+"TABLEVIEW_SECTION_TITLE_THIS_WEEK" = "This Week";
+"TABLEVIEW_SECTION_TITLE_THIS_MONTH" = "This Month";
+
+
+// KIDS VIEWCONTROLLER
+// eg. See 10 More
+"SECTION_CELL_SEE_TEXT" = "See";
+"SECTION_CELL_MORE_TEXT" = "More";
+
+"SECTION_CELL_REMAINING_TEXT" = "Remaining";
+
+"CURRENT_LOCATION_DETAIL_TEXT" = "Current Location";
+
+"SEARCH_PLACEHOLDER_TEXT" = "Search";
+
+"OFFLINE_EMPTY_DATA_SET_TITLE" = "No Connection";
+// "OFFLINE_EMPTY_DATA_SET_DESCRIPTION_TEXT" = "Check if your device has access to the internet.";
+
+"FAVORITES_EMPTY_DATA_SET_TITLE" = "No Favorites";
+"SEARCH_EMPTY_DATA_SET_TITLE" = "Search";
+"NO_RESULTS_FOUND_EMPTY_DATA_SET_TITLE" = "No Results Found";
+
+"PLAYING_PERIOD_TEXT" = "Playing Period";
+
+"ARE_YOU_SURE_TEXT" = "Are you sure?";
+
+"SHOW_ADDED_TITLE" = "Added";
+"SHOW_ADDED_MESSAGE_TEXT" = "Show added to your calendar";
+"SHOW_ACTION_SHOW_TITLE" = "Show";
+
+"FROM_TEXT" = "From";
+
+"SEE_MORE_RESULTS_TEXT" = "See More Results";
+"SEE_MORE_TEXT" = "See More";
+
+"SEARCH_EVENTS_HEADER_SECTION_TITLE" = "Events";
+"SEARCH_ORGANIZATIONS_HEADER_SECTION_TITLE" = "Profiles";

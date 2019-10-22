@@ -7,14 +7,105 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		338C5694A855E24F196A741E /* Pods_Danish_Theater.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AEDA60BD4AFF172B9D11536 /* Pods_Danish_Theater.framework */; };
+		3505DF9B1F016F2A00200B3C /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 3505DF9A1F016F2A00200B3C /* Event.m */; };
+		3505DFA01F017C7B00200B3C /* Accreditation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3505DF9F1F017C7B00200B3C /* Accreditation.m */; };
+		3505DFA31F01805900200B3C /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 3505DFA21F01805900200B3C /* Contact.m */; };
+		3505DFA61F0182B200200B3C /* TicketOffice.m in Sources */ = {isa = PBXBuildFile; fileRef = 3505DFA51F0182B200200B3C /* TicketOffice.m */; };
+		3505DFA91F0183C900200B3C /* TicketInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3505DFA81F0183C900200B3C /* TicketInfo.m */; };
+		3505DFAC1F01850B00200B3C /* TicketAgencyInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3505DFAB1F01850B00200B3C /* TicketAgencyInfo.m */; };
+		3505DFAF1F01894900200B3C /* Ticket.m in Sources */ = {isa = PBXBuildFile; fileRef = 3505DFAE1F01894900200B3C /* Ticket.m */; };
+		3505DFB21F018ABB00200B3C /* PriceGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 3505DFB11F018ABB00200B3C /* PriceGroup.m */; };
+		3510429D1F019162001DCCEF /* DTEventDetailTableViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3510429C1F019162001DCCEF /* DTEventDetailTableViewHeaderView.m */; };
+		351042A11F01977A001DCCEF /* DTBookButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 351042A01F01977A001DCCEF /* DTBookButton.m */; };
+		3515B1A01F05219F0064A232 /* NSString+FormatHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 3515B19F1F05219F0064A232 /* NSString+FormatHelpers.m */; };
+		3515B1A61F0591120064A232 /* DTShowsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3515B1A51F0591120064A232 /* DTShowsViewController.m */; };
+		3515B1A91F0595AC0064A232 /* Show.m in Sources */ = {isa = PBXBuildFile; fileRef = 3515B1A81F0595AC0064A232 /* Show.m */; };
+		3515B1AC1F0599690064A232 /* DTShowTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3515B1AB1F0599690064A232 /* DTShowTableViewCell.m */; };
+		3515B1AF1F05A2DC0064A232 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3515B1AE1F05A2DC0064A232 /* FXBlurView.m */; };
+		351E11491F13D35D00EDFAF6 /* NSDate+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 351E11481F13D35D00EDFAF6 /* NSDate+Helpers.m */; };
+		352456A31F336384004DB3C2 /* DTFavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 352456A21F336384004DB3C2 /* DTFavoritesViewController.m */; };
+		352456A61F3363D6004DB3C2 /* DTThumbnailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 352456A51F3363D6004DB3C2 /* DTThumbnailView.m */; };
+		3531997F1F08D09200C3CEC9 /* Organization.m in Sources */ = {isa = PBXBuildFile; fileRef = 3531997E1F08D09200C3CEC9 /* Organization.m */; };
+		353199821F08D5C200C3CEC9 /* UIColor+ColorFromHexadecimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 353199811F08D5C200C3CEC9 /* UIColor+ColorFromHexadecimal.m */; };
+		353761A02019E3BA006C8639 /* Episode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3537619F2019E3BA006C8639 /* Episode.m */; };
+		35378FCF2017672F00566ABC /* DTQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 35378FCE2017672F00566ABC /* DTQuery.m */; };
+		35381CB32019CDEF009D0E3A /* DTPodcastDetailTableViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35381CB22019CDEF009D0E3A /* DTPodcastDetailTableViewHeaderView.m */; };
+		35381E162019D55E009D0E3A /* Podcast.m in Sources */ = {isa = PBXBuildFile; fileRef = 35381E152019D55E009D0E3A /* Podcast.m */; };
+		353AA52B1F0BB23500794310 /* DTVenueTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 353AA52A1F0BB23500794310 /* DTVenueTableViewCell.m */; };
+		353AA5311F0BB79300794310 /* Venue.m in Sources */ = {isa = PBXBuildFile; fileRef = 353AA5301F0BB79300794310 /* Venue.m */; };
+		353AA5341F0BB7E100794310 /* VenueInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 353AA5331F0BB7E100794310 /* VenueInfo.m */; };
+		353AA53B1F0BEA4D00794310 /* DTGenresMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 353AA53A1F0BEA4D00794310 /* DTGenresMasterViewController.m */; };
+		353AA53E1F0BEB4800794310 /* DTGenresDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 353AA53D1F0BEB4800794310 /* DTGenresDetailViewController.m */; };
+		355484F81F016D27005FA0F3 /* DTHomepageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 355484F71F016D27005FA0F3 /* DTHomepageViewController.m */; };
+		355AF3A81F3F3B950028C10E /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = 355AF3A71F3F3B950028C10E /* UIImage+Tint.m */; };
+		356071051F08F7F5006C1CEF /* DTOrganizationDetailTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 356071041F08F7F5006C1CEF /* DTOrganizationDetailTableHeaderView.m */; };
+		35616C881F31C36B009D0AEC /* Haversine.m in Sources */ = {isa = PBXBuildFile; fileRef = 35616C871F31C36B009D0AEC /* Haversine.m */; };
+		3562E7291F08D79C00122F8E /* DTTableViewOrganizationHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3562E7281F08D79C00122F8E /* DTTableViewOrganizationHeaderView.m */; };
+		3565A6381F0C1AE10024062F /* DTSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3565A6371F0C1AE10024062F /* DTSearchViewController.m */; };
+		356C2BC11F379DC200EFBFF5 /* UINavigationBar+Visibility.m in Sources */ = {isa = PBXBuildFile; fileRef = 356C2BC01F379DC200EFBFF5 /* UINavigationBar+Visibility.m */; };
+		356C2BC41F37A56E00EFBFF5 /* UIImageView+TextProtection.m in Sources */ = {isa = PBXBuildFile; fileRef = 356C2BC31F37A56E00EFBFF5 /* UIImageView+TextProtection.m */; };
+		3570117320239D3500DE2B94 /* SearchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3570117220239D3500DE2B94 /* SearchItem.m */; };
+		357846171F322C7500756E27 /* DTMunicipalityPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 357846161F322C7500756E27 /* DTMunicipalityPickerController.m */; };
+		357C0D401F06A9C8007FC1E7 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357C0D3F1F06A9C8007FC1E7 /* EventKit.framework */; };
+		357C0D421F06B56C007FC1E7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357C0D411F06B56C007FC1E7 /* MapKit.framework */; };
+		358326C01F210C64006C428D /* DTLoadingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 358326BF1F210C64006C428D /* DTLoadingTableViewCell.m */; };
+		3587AE2C20B6034A0007C618 /* LobsterTwo-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3587AE2B20B602C20007C618 /* LobsterTwo-BoldItalic.ttf */; };
+		358EB0E01F388AFC007A9AED /* DanishTheater.m in Sources */ = {isa = PBXBuildFile; fileRef = 358EB0DF1F388AFC007A9AED /* DanishTheater.m */; };
+		358EB0E31F3890CA007A9AED /* UIBarButtonItem+DTBackButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 358EB0E21F3890CA007A9AED /* UIBarButtonItem+DTBackButtonItem.m */; };
+		359817191F02D639007208A2 /* DTInformationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 359817181F02D639007208A2 /* DTInformationTableViewCell.m */; };
+		359B2F051F07F4670048E925 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359B2F041F07F4670048E925 /* AVFoundation.framework */; };
+		359B2F071F07F4A00048E925 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359B2F061F07F4A00048E925 /* AVKit.framework */; };
+		35A1B6842023467500ECB543 /* NSString+Levenshtein.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A1B6832023467500ECB543 /* NSString+Levenshtein.m */; };
+		35AAB2621F272F1800B2DEF5 /* DTSectionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AAB2611F272F1800B2DEF5 /* DTSectionTableViewCell.m */; };
+		35ACE2501F168DCC00350FE3 /* DTKidsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35ACE24F1F168DCC00350FE3 /* DTKidsViewController.m */; };
+		35AD19F81F3C524F00C8DB7A /* UIApplication+Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AD19F71F3C524F00C8DB7A /* UIApplication+Reachability.m */; };
+		35AD19FC1F3C529400C8DB7A /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AD19FB1F3C529400C8DB7A /* Reachability.m */; };
+		35AD19FF1F3C579D00C8DB7A /* NSAttributedString+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AD19FE1F3C579D00C8DB7A /* NSAttributedString+EmptyDataSet.m */; };
+		35AE81071F3B0234002813D9 /* UIScrollView+DTPreloading.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AE81061F3B0234002813D9 /* UIScrollView+DTPreloading.m */; };
+		35AE8ED11F3317FA00675DF9 /* DTCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AE8ED01F3317FA00675DF9 /* DTCalendarViewController.m */; };
+		35AE8ED31F332A5600675DF9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35AE8ED21F332A5600675DF9 /* CoreLocation.framework */; };
+		35AE8ED51F332D0C00675DF9 /* default.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 35AE8ED41F332D0C00675DF9 /* default.gpx */; };
+		35AE8ED81F332EFA00675DF9 /* DTCalendarTableViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AE8ED71F332EFA00675DF9 /* DTCalendarTableViewHeaderView.m */; };
+		35B4589B1F38E14A00013856 /* UIAlertController+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B4589A1F38E14A00013856 /* UIAlertController+Helpers.m */; };
+		35B458A21F38FC5C00013856 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35B458A41F38FC5C00013856 /* Localizable.strings */; };
 		35C2C5C91F0169FD008AEFFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C2C5C81F0169FD008AEFFD /* main.m */; };
 		35C2C5CC1F0169FD008AEFFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C2C5CB1F0169FD008AEFFD /* AppDelegate.m */; };
-		35C2C5CF1F0169FD008AEFFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C2C5CE1F0169FD008AEFFD /* ViewController.m */; };
 		35C2C5D21F0169FD008AEFFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35C2C5D01F0169FD008AEFFD /* Main.storyboard */; };
 		35C2C5D41F0169FD008AEFFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35C2C5D31F0169FD008AEFFD /* Assets.xcassets */; };
 		35C2C5D71F0169FD008AEFFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35C2C5D51F0169FD008AEFFD /* LaunchScreen.storyboard */; };
 		35C2C5E21F0169FD008AEFFD /* Danish_TheaterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C2C5E11F0169FD008AEFFD /* Danish_TheaterTests.m */; };
 		35C2C5ED1F0169FD008AEFFD /* Danish_TheaterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C2C5EC1F0169FD008AEFFD /* Danish_TheaterUITests.m */; };
+		35C6AD451F2261500024BFA9 /* FIRDatabaseReference+ChildreCount.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C6AD441F2261500024BFA9 /* FIRDatabaseReference+ChildreCount.m */; };
+		35C93D111FBF279500D8F028 /* Thumbnail.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C93D101FBF279500D8F028 /* Thumbnail.m */; };
+		35CC9C701FBC964400199AF3 /* UITableView+DetectFloatingHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CC9C6F1FBC964400199AF3 /* UITableView+DetectFloatingHeader.m */; };
+		35CF9A071F016AC0006740B0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35CF9A061F016AC0006740B0 /* GoogleService-Info.plist */; };
+		35CF9A111F016B37006740B0 /* DTEventDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CF9A101F016B37006740B0 /* DTEventDetailViewController.m */; };
+		35D654321FBCF96A008CB622 /* UILabel+Highlighting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D654311FBCF96A008CB622 /* UILabel+Highlighting.swift */; };
+		35D962481F405470001CD028 /* DTOrganizationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D962471F405470001CD028 /* DTOrganizationDetailViewController.m */; };
+		35DA95AD1F31B35200FF8148 /* GeoLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DA95AC1F31B35200FF8148 /* GeoLocation.m */; };
+		35DA95B01F31B80A00FF8148 /* IPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DA95AF1F31B80A00FF8148 /* IPAddress.m */; };
+		35E84CC91FBDB359002F565E /* DTSearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E84CC81FBDB359002F565E /* DTSearchResultsViewController.m */; };
+		35E88B2C1F264E1200C167E4 /* DTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E88B2B1F264E1200C167E4 /* DTTableViewCell.m */; };
+		35F8EE121F07999C00F0E5CB /* DTCreditsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F8EE111F07999C00F0E5CB /* DTCreditsViewController.m */; };
+		35F8EE151F07A18D00F0E5CB /* DTServicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F8EE141F07A18D00F0E5CB /* DTServicesViewController.m */; };
+		35F8EE1E1F07BB3900F0E5CB /* Trailer.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F8EE191F07BB3900F0E5CB /* Trailer.m */; };
+		35F8EE1F1F07BB3900F0E5CB /* Vimeo.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F8EE1B1F07BB3900F0E5CB /* Vimeo.m */; };
+		35F8EE201F07BB3900F0E5CB /* Youtube.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F8EE1D1F07BB3900F0E5CB /* Youtube.m */; };
+		35FA0F022018E78A005D7199 /* DTEventsSectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FA0F012018E78A005D7199 /* DTEventsSectionViewController.m */; };
+		35FA0F062018EC10005D7199 /* DTColorPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FA0F042018EC10005D7199 /* DTColorPalette.m */; };
+		35FA0F072018EC10005D7199 /* USA-HotelMotel.csv in Resources */ = {isa = PBXBuildFile; fileRef = 35FA0F052018EC10005D7199 /* USA-HotelMotel.csv */; };
+		35FA0F0B2018ED16005D7199 /* DTCarouselItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FA0F0A2018ED16005D7199 /* DTCarouselItemCollectionViewCell.m */; };
+		35FA0F0E2018ED26005D7199 /* DTCarouselTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FA0F0D2018ED26005D7199 /* DTCarouselTableViewCell.m */; };
+		35FA0F112018F92D005D7199 /* DTMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FA0F102018F92D005D7199 /* DTMapViewController.m */; };
+		35FA0F1B2018F95A005D7199 /* TBClusterAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FA0F142018F95A005D7199 /* TBClusterAnnotation.m */; };
+		35FA0F1C2018F95A005D7199 /* TBClusterAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FA0F162018F95A005D7199 /* TBClusterAnnotationView.m */; };
+		35FA0F1D2018F95A005D7199 /* TBCoordinateQuadTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FA0F182018F95A005D7199 /* TBCoordinateQuadTree.m */; };
+		35FA0F1E2018F95A005D7199 /* TBQuadTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FA0F1A2018F95A005D7199 /* TBQuadTree.m */; };
+		35FCA5231F02953A001492C0 /* UIImageView+TerebaImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FCA5221F029539001492C0 /* UIImageView+TerebaImageView.m */; };
+		35FCA5271F02C005001492C0 /* DTDescriptionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FCA5261F02C005001492C0 /* DTDescriptionTableViewCell.m */; };
+		5BDEAB828AF4E6490F4B7F53 /* Pods_Danish_TheaterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73E60F69030D91D07C25C687 /* Pods_Danish_TheaterUITests.framework */; };
+		E5E00BE2284204D1BB29D802 /* Pods_Danish_TheaterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A979B45C9EF59A9DBCE9A8B1 /* Pods_Danish_TheaterTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,13 +125,146 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		35FB31FF2054781400102CB9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2AEDA60BD4AFF172B9D11536 /* Pods_Danish_Theater.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Danish_Theater.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3505DF991F016F2A00200B3C /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Event.h; path = Models/Event.h; sourceTree = "<group>"; };
+		3505DF9A1F016F2A00200B3C /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Event.m; path = Models/Event.m; sourceTree = "<group>"; };
+		3505DF9E1F017C7B00200B3C /* Accreditation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Accreditation.h; path = Models/Accreditation.h; sourceTree = "<group>"; };
+		3505DF9F1F017C7B00200B3C /* Accreditation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Accreditation.m; path = Models/Accreditation.m; sourceTree = "<group>"; };
+		3505DFA11F01805900200B3C /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Contact.h; path = Models/Contact.h; sourceTree = "<group>"; };
+		3505DFA21F01805900200B3C /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Contact.m; path = Models/Contact.m; sourceTree = "<group>"; };
+		3505DFA41F0182B200200B3C /* TicketOffice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TicketOffice.h; path = Models/TicketOffice.h; sourceTree = "<group>"; };
+		3505DFA51F0182B200200B3C /* TicketOffice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TicketOffice.m; path = Models/TicketOffice.m; sourceTree = "<group>"; };
+		3505DFA71F0183C900200B3C /* TicketInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TicketInfo.h; path = Models/TicketInfo.h; sourceTree = "<group>"; };
+		3505DFA81F0183C900200B3C /* TicketInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TicketInfo.m; path = Models/TicketInfo.m; sourceTree = "<group>"; };
+		3505DFAA1F01850B00200B3C /* TicketAgencyInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TicketAgencyInfo.h; path = Models/TicketAgencyInfo.h; sourceTree = "<group>"; };
+		3505DFAB1F01850B00200B3C /* TicketAgencyInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TicketAgencyInfo.m; path = Models/TicketAgencyInfo.m; sourceTree = "<group>"; };
+		3505DFAD1F01894900200B3C /* Ticket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Ticket.h; path = Models/Ticket.h; sourceTree = "<group>"; };
+		3505DFAE1F01894900200B3C /* Ticket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Ticket.m; path = Models/Ticket.m; sourceTree = "<group>"; };
+		3505DFB01F018ABB00200B3C /* PriceGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PriceGroup.h; path = Models/PriceGroup.h; sourceTree = "<group>"; };
+		3505DFB11F018ABB00200B3C /* PriceGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PriceGroup.m; path = Models/PriceGroup.m; sourceTree = "<group>"; };
+		3510429B1F019162001DCCEF /* DTEventDetailTableViewHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DTEventDetailTableViewHeaderView.h; path = Views/DTEventDetailTableViewHeaderView.h; sourceTree = "<group>"; };
+		3510429C1F019162001DCCEF /* DTEventDetailTableViewHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DTEventDetailTableViewHeaderView.m; path = Views/DTEventDetailTableViewHeaderView.m; sourceTree = "<group>"; };
+		3510429F1F01977A001DCCEF /* DTBookButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DTBookButton.h; path = Buttons/DTBookButton.h; sourceTree = "<group>"; };
+		351042A01F01977A001DCCEF /* DTBookButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DTBookButton.m; path = Buttons/DTBookButton.m; sourceTree = "<group>"; };
+		3515B19E1F05219F0064A232 /* NSString+FormatHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = "NSString+FormatHelpers.h"; path = "Categories/NSString+FormatHelpers.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		3515B19F1F05219F0064A232 /* NSString+FormatHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = "NSString+FormatHelpers.m"; path = "Categories/NSString+FormatHelpers.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		3515B1A41F0591120064A232 /* DTShowsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DTShowsViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		3515B1A51F0591120064A232 /* DTShowsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DTShowsViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		3515B1A71F0595AC0064A232 /* Show.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Show.h; path = Models/Show.h; sourceTree = "<group>"; };
+		3515B1A81F0595AC0064A232 /* Show.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Show.m; path = Models/Show.m; sourceTree = "<group>"; };
+		3515B1AA1F0599690064A232 /* DTShowTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DTShowTableViewCell.h; path = TableViewCells/DTShowTableViewCell.h; sourceTree = "<group>"; };
+		3515B1AB1F0599690064A232 /* DTShowTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DTShowTableViewCell.m; path = TableViewCells/DTShowTableViewCell.m; sourceTree = "<group>"; };
+		3515B1AD1F05A2DC0064A232 /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
+		3515B1AE1F05A2DC0064A232 /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
+		351E11471F13D35D00EDFAF6 /* NSDate+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+Helpers.h"; path = "Categories/NSDate+Helpers.h"; sourceTree = "<group>"; };
+		351E11481F13D35D00EDFAF6 /* NSDate+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Helpers.m"; path = "Categories/NSDate+Helpers.m"; sourceTree = "<group>"; };
+		352456A11F336384004DB3C2 /* DTFavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTFavoritesViewController.h; sourceTree = "<group>"; };
+		352456A21F336384004DB3C2 /* DTFavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTFavoritesViewController.m; sourceTree = "<group>"; };
+		352456A41F3363D6004DB3C2 /* DTThumbnailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DTThumbnailView.h; path = Views/DTThumbnailView.h; sourceTree = "<group>"; };
+		352456A51F3363D6004DB3C2 /* DTThumbnailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DTThumbnailView.m; path = Views/DTThumbnailView.m; sourceTree = "<group>"; };
+		3531997D1F08D09200C3CEC9 /* Organization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Organization.h; path = Models/Organization.h; sourceTree = "<group>"; };
+		3531997E1F08D09200C3CEC9 /* Organization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Organization.m; path = Models/Organization.m; sourceTree = "<group>"; };
+		353199801F08D5C200C3CEC9 /* UIColor+ColorFromHexadecimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+ColorFromHexadecimal.h"; path = "Categories/UIColor+ColorFromHexadecimal.h"; sourceTree = "<group>"; };
+		353199811F08D5C200C3CEC9 /* UIColor+ColorFromHexadecimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ColorFromHexadecimal.m"; path = "Categories/UIColor+ColorFromHexadecimal.m"; sourceTree = "<group>"; };
+		3537619E2019E3BA006C8639 /* Episode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Episode.h; path = Models/Episode.h; sourceTree = "<group>"; };
+		3537619F2019E3BA006C8639 /* Episode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Episode.m; path = Models/Episode.m; sourceTree = "<group>"; };
+		35378FCD2017672F00566ABC /* DTQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTQuery.h; sourceTree = "<group>"; };
+		35378FCE2017672F00566ABC /* DTQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTQuery.m; sourceTree = "<group>"; };
+		35381CB12019CDEF009D0E3A /* DTPodcastDetailTableViewHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DTPodcastDetailTableViewHeaderView.h; path = Views/DTPodcastDetailTableViewHeaderView.h; sourceTree = "<group>"; };
+		35381CB22019CDEF009D0E3A /* DTPodcastDetailTableViewHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DTPodcastDetailTableViewHeaderView.m; path = Views/DTPodcastDetailTableViewHeaderView.m; sourceTree = "<group>"; };
+		35381E142019D55E009D0E3A /* Podcast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Podcast.h; path = Models/Podcast.h; sourceTree = "<group>"; };
+		35381E152019D55E009D0E3A /* Podcast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Podcast.m; path = Models/Podcast.m; sourceTree = "<group>"; };
+		353AA5291F0BB23500794310 /* DTVenueTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DTVenueTableViewCell.h; path = TableViewCells/DTVenueTableViewCell.h; sourceTree = "<group>"; };
+		353AA52A1F0BB23500794310 /* DTVenueTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DTVenueTableViewCell.m; path = TableViewCells/DTVenueTableViewCell.m; sourceTree = "<group>"; };
+		353AA52F1F0BB79300794310 /* Venue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Venue.h; path = Models/Venue.h; sourceTree = "<group>"; };
+		353AA5301F0BB79300794310 /* Venue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Venue.m; path = Models/Venue.m; sourceTree = "<group>"; };
+		353AA5321F0BB7E100794310 /* VenueInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VenueInfo.h; path = Models/VenueInfo.h; sourceTree = "<group>"; };
+		353AA5331F0BB7E100794310 /* VenueInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VenueInfo.m; path = Models/VenueInfo.m; sourceTree = "<group>"; };
+		353AA5391F0BEA4D00794310 /* DTGenresMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DTGenresMasterViewController.h; path = TableViewControllers/DTGenresMasterViewController.h; sourceTree = "<group>"; };
+		353AA53A1F0BEA4D00794310 /* DTGenresMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DTGenresMasterViewController.m; path = TableViewControllers/DTGenresMasterViewController.m; sourceTree = "<group>"; };
+		353AA53C1F0BEB4800794310 /* DTGenresDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTGenresDetailViewController.h; sourceTree = "<group>"; };
+		353AA53D1F0BEB4800794310 /* DTGenresDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTGenresDetailViewController.m; sourceTree = "<group>"; };
+		354352901F39B9BA00878985 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		354352921F39B9BD00878985 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		355484F61F016D27005FA0F3 /* DTHomepageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTHomepageViewController.h; sourceTree = "<group>"; };
+		355484F71F016D27005FA0F3 /* DTHomepageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTHomepageViewController.m; sourceTree = "<group>"; };
+		355AF3A61F3F3B950028C10E /* UIImage+Tint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Tint.h"; path = "Categories/UIImage+Tint.h"; sourceTree = "<group>"; };
+		355AF3A71F3F3B950028C10E /* UIImage+Tint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Tint.m"; path = "Categories/UIImage+Tint.m"; sourceTree = "<group>"; };
+		355AF3A91F3F66590028C10E /* DTEmptyDataSetStatesDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTEmptyDataSetStatesDefines.h; sourceTree = "<group>"; };
+		356071031F08F7F5006C1CEF /* DTOrganizationDetailTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DTOrganizationDetailTableHeaderView.h; path = Views/DTOrganizationDetailTableHeaderView.h; sourceTree = "<group>"; };
+		356071041F08F7F5006C1CEF /* DTOrganizationDetailTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DTOrganizationDetailTableHeaderView.m; path = Views/DTOrganizationDetailTableHeaderView.m; sourceTree = "<group>"; };
+		35616C861F31C36B009D0AEC /* Haversine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Haversine.h; sourceTree = "<group>"; };
+		35616C871F31C36B009D0AEC /* Haversine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Haversine.m; sourceTree = "<group>"; };
+		3562E7271F08D79C00122F8E /* DTTableViewOrganizationHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DTTableViewOrganizationHeaderView.h; path = TableViewHeaderFooterView/DTTableViewOrganizationHeaderView.h; sourceTree = "<group>"; };
+		3562E7281F08D79C00122F8E /* DTTableViewOrganizationHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DTTableViewOrganizationHeaderView.m; path = TableViewHeaderFooterView/DTTableViewOrganizationHeaderView.m; sourceTree = "<group>"; };
+		3565A6361F0C1AE10024062F /* DTSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTSearchViewController.h; sourceTree = "<group>"; };
+		3565A6371F0C1AE10024062F /* DTSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DTSearchViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		356C2BBF1F379DC200EFBFF5 /* UINavigationBar+Visibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+Visibility.h"; path = "Categories/UINavigationBar+Visibility.h"; sourceTree = "<group>"; };
+		356C2BC01F379DC200EFBFF5 /* UINavigationBar+Visibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+Visibility.m"; path = "Categories/UINavigationBar+Visibility.m"; sourceTree = "<group>"; };
+		356C2BC21F37A56E00EFBFF5 /* UIImageView+TextProtection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+TextProtection.h"; path = "Categories/UIImageView+TextProtection.h"; sourceTree = "<group>"; };
+		356C2BC31F37A56E00EFBFF5 /* UIImageView+TextProtection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+TextProtection.m"; path = "Categories/UIImageView+TextProtection.m"; sourceTree = "<group>"; };
+		3570117120239D3500DE2B94 /* SearchItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchItem.h; path = Models/SearchItem.h; sourceTree = "<group>"; };
+		3570117220239D3500DE2B94 /* SearchItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchItem.m; path = Models/SearchItem.m; sourceTree = "<group>"; };
+		357846151F322C7500756E27 /* DTMunicipalityPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTMunicipalityPickerController.h; sourceTree = "<group>"; };
+		357846161F322C7500756E27 /* DTMunicipalityPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTMunicipalityPickerController.m; sourceTree = "<group>"; };
+		357C0D3F1F06A9C8007FC1E7 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		357C0D411F06B56C007FC1E7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		358326BE1F210C64006C428D /* DTLoadingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DTLoadingTableViewCell.h; path = TableViewCells/DTLoadingTableViewCell.h; sourceTree = "<group>"; };
+		358326BF1F210C64006C428D /* DTLoadingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DTLoadingTableViewCell.m; path = TableViewCells/DTLoadingTableViewCell.m; sourceTree = "<group>"; };
+		3586F584201A5FBD005FC048 /* Danish Theater.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Danish Theater.entitlements"; sourceTree = "<group>"; };
+		3587AE2B20B602C20007C618 /* LobsterTwo-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LobsterTwo-BoldItalic.ttf"; sourceTree = "<group>"; };
+		358EB0DE1F388AFC007A9AED /* DanishTheater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DanishTheater.h; sourceTree = "<group>"; };
+		358EB0DF1F388AFC007A9AED /* DanishTheater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DanishTheater.m; sourceTree = "<group>"; };
+		358EB0E11F3890CA007A9AED /* UIBarButtonItem+DTBackButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+DTBackButtonItem.h"; path = "Categories/UIBarButtonItem+DTBackButtonItem.h"; sourceTree = "<group>"; };
+		358EB0E21F3890CA007A9AED /* UIBarButtonItem+DTBackButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+DTBackButtonItem.m"; path = "Categories/UIBarButtonItem+DTBackButtonItem.m"; sourceTree = "<group>"; };
+		359817171F02D639007208A2 /* DTInformationTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DTInformationTableViewCell.h; path = TableViewCells/DTInformationTableViewCell.h; sourceTree = "<group>"; };
+		359817181F02D639007208A2 /* DTInformationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DTInformationTableViewCell.m; path = TableViewCells/DTInformationTableViewCell.m; sourceTree = "<group>"; };
+		359B2F041F07F4670048E925 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		359B2F061F07F4A00048E925 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		35A1B6822023467500ECB543 /* NSString+Levenshtein.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Levenshtein.h"; path = "Categories/NSString+Levenshtein.h"; sourceTree = "<group>"; };
+		35A1B6832023467500ECB543 /* NSString+Levenshtein.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Levenshtein.m"; path = "Categories/NSString+Levenshtein.m"; sourceTree = "<group>"; };
+		35AAB2601F272F1800B2DEF5 /* DTSectionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DTSectionTableViewCell.h; path = TableViewCells/DTSectionTableViewCell.h; sourceTree = "<group>"; };
+		35AAB2611F272F1800B2DEF5 /* DTSectionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DTSectionTableViewCell.m; path = TableViewCells/DTSectionTableViewCell.m; sourceTree = "<group>"; };
+		35ACE24E1F168DCC00350FE3 /* DTKidsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTKidsViewController.h; sourceTree = "<group>"; };
+		35ACE24F1F168DCC00350FE3 /* DTKidsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTKidsViewController.m; sourceTree = "<group>"; };
+		35AD19F61F3C524F00C8DB7A /* UIApplication+Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIApplication+Reachability.h"; path = "Categories/UIApplication+Reachability.h"; sourceTree = "<group>"; };
+		35AD19F71F3C524F00C8DB7A /* UIApplication+Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+Reachability.m"; path = "Categories/UIApplication+Reachability.m"; sourceTree = "<group>"; };
+		35AD19FA1F3C529400C8DB7A /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		35AD19FB1F3C529400C8DB7A /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		35AD19FD1F3C579D00C8DB7A /* NSAttributedString+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+EmptyDataSet.h"; path = "Categories/NSAttributedString+EmptyDataSet.h"; sourceTree = "<group>"; };
+		35AD19FE1F3C579D00C8DB7A /* NSAttributedString+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+EmptyDataSet.m"; path = "Categories/NSAttributedString+EmptyDataSet.m"; sourceTree = "<group>"; };
+		35AE81051F3B0234002813D9 /* UIScrollView+DTPreloading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+DTPreloading.h"; path = "Categories/UIScrollView+DTPreloading.h"; sourceTree = "<group>"; };
+		35AE81061F3B0234002813D9 /* UIScrollView+DTPreloading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+DTPreloading.m"; path = "Categories/UIScrollView+DTPreloading.m"; sourceTree = "<group>"; };
+		35AE8ECF1F3317FA00675DF9 /* DTCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTCalendarViewController.h; sourceTree = "<group>"; };
+		35AE8ED01F3317FA00675DF9 /* DTCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTCalendarViewController.m; sourceTree = "<group>"; };
+		35AE8ED21F332A5600675DF9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		35AE8ED41F332D0C00675DF9 /* default.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = default.gpx; sourceTree = "<group>"; };
+		35AE8ED61F332EFA00675DF9 /* DTCalendarTableViewHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DTCalendarTableViewHeaderView.h; path = TableViewHeaderFooterView/DTCalendarTableViewHeaderView.h; sourceTree = "<group>"; };
+		35AE8ED71F332EFA00675DF9 /* DTCalendarTableViewHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DTCalendarTableViewHeaderView.m; path = TableViewHeaderFooterView/DTCalendarTableViewHeaderView.m; sourceTree = "<group>"; };
+		35B458991F38E14A00013856 /* UIAlertController+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = "UIAlertController+Helpers.h"; path = "Categories/UIAlertController+Helpers.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		35B4589A1F38E14A00013856 /* UIAlertController+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = "UIAlertController+Helpers.m"; path = "Categories/UIAlertController+Helpers.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		35B458A31F38FC5C00013856 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		35B458A51F38FCCC00013856 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Main.strings; sourceTree = "<group>"; };
+		35B458A61F38FCCC00013856 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		35B458A71F38FCCC00013856 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
 		35C2C5C41F0169FD008AEFFD /* Danish Theater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Danish Theater.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35C2C5C81F0169FD008AEFFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		35C2C5CA1F0169FD008AEFFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		35C2C5CB1F0169FD008AEFFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		35C2C5CD1F0169FD008AEFFD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		35C2C5CE1F0169FD008AEFFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		35C2C5D11F0169FD008AEFFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		35C2C5D31F0169FD008AEFFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35C2C5D61F0169FD008AEFFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +275,69 @@
 		35C2C5E81F0169FD008AEFFD /* Danish TheaterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Danish TheaterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35C2C5EC1F0169FD008AEFFD /* Danish_TheaterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Danish_TheaterUITests.m; sourceTree = "<group>"; };
 		35C2C5EE1F0169FD008AEFFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35C6AD431F2261500024BFA9 /* FIRDatabaseReference+ChildreCount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "FIRDatabaseReference+ChildreCount.h"; path = "Categories/FIRDatabaseReference+ChildreCount.h"; sourceTree = "<group>"; };
+		35C6AD441F2261500024BFA9 /* FIRDatabaseReference+ChildreCount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "FIRDatabaseReference+ChildreCount.m"; path = "Categories/FIRDatabaseReference+ChildreCount.m"; sourceTree = "<group>"; };
+		35C93D0F1FBF279500D8F028 /* Thumbnail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Thumbnail.h; path = Models/Thumbnail.h; sourceTree = "<group>"; };
+		35C93D101FBF279500D8F028 /* Thumbnail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Thumbnail.m; path = Models/Thumbnail.m; sourceTree = "<group>"; };
+		35CC9C6E1FBC964400199AF3 /* UITableView+DetectFloatingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITableView+DetectFloatingHeader.h"; path = "Categories/UITableView+DetectFloatingHeader.h"; sourceTree = "<group>"; };
+		35CC9C6F1FBC964400199AF3 /* UITableView+DetectFloatingHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITableView+DetectFloatingHeader.m"; path = "Categories/UITableView+DetectFloatingHeader.m"; sourceTree = "<group>"; };
+		35CF9A061F016AC0006740B0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		35CF9A0F1F016B37006740B0 /* DTEventDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTEventDetailViewController.h; sourceTree = "<group>"; };
+		35CF9A101F016B37006740B0 /* DTEventDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DTEventDetailViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		35D6542F1FBCF969008CB622 /* Danish Theater-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Danish Theater-Bridging-Header.h"; sourceTree = "<group>"; };
+		35D654301FBCF96A008CB622 /* Danish-Theater-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Danish-Theater-Bridging-Header.h"; path = "Danish Theater/Danish-Theater-Bridging-Header.h"; sourceTree = "<group>"; };
+		35D654311FBCF96A008CB622 /* UILabel+Highlighting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UILabel+Highlighting.swift"; path = "Danish Theater/UILabel+Highlighting.swift"; sourceTree = "<group>"; };
+		35D962461F405470001CD028 /* DTOrganizationDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOrganizationDetailViewController.h; sourceTree = "<group>"; };
+		35D962471F405470001CD028 /* DTOrganizationDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOrganizationDetailViewController.m; sourceTree = "<group>"; };
+		35DA95AB1F31B35200FF8148 /* GeoLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoLocation.h; sourceTree = "<group>"; };
+		35DA95AC1F31B35200FF8148 /* GeoLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoLocation.m; sourceTree = "<group>"; };
+		35DA95AE1F31B80900FF8148 /* IPAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPAddress.h; sourceTree = "<group>"; };
+		35DA95AF1F31B80A00FF8148 /* IPAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPAddress.m; sourceTree = "<group>"; };
+		35E84CC71FBDB359002F565E /* DTSearchResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTSearchResultsViewController.h; sourceTree = "<group>"; };
+		35E84CC81FBDB359002F565E /* DTSearchResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTSearchResultsViewController.m; sourceTree = "<group>"; };
+		35E88B2A1F264E1200C167E4 /* DTTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DTTableViewCell.h; path = TableViewCells/DTTableViewCell.h; sourceTree = "<group>"; };
+		35E88B2B1F264E1200C167E4 /* DTTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DTTableViewCell.m; path = TableViewCells/DTTableViewCell.m; sourceTree = "<group>"; };
+		35F8EE101F07999C00F0E5CB /* DTCreditsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTCreditsViewController.h; sourceTree = "<group>"; };
+		35F8EE111F07999C00F0E5CB /* DTCreditsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTCreditsViewController.m; sourceTree = "<group>"; };
+		35F8EE131F07A18D00F0E5CB /* DTServicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTServicesViewController.h; sourceTree = "<group>"; };
+		35F8EE141F07A18D00F0E5CB /* DTServicesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTServicesViewController.m; sourceTree = "<group>"; };
+		35F8EE181F07BB3900F0E5CB /* Trailer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trailer.h; sourceTree = "<group>"; };
+		35F8EE191F07BB3900F0E5CB /* Trailer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trailer.m; sourceTree = "<group>"; };
+		35F8EE1A1F07BB3900F0E5CB /* Vimeo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vimeo.h; sourceTree = "<group>"; };
+		35F8EE1B1F07BB3900F0E5CB /* Vimeo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vimeo.m; sourceTree = "<group>"; };
+		35F8EE1C1F07BB3900F0E5CB /* Youtube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Youtube.h; sourceTree = "<group>"; };
+		35F8EE1D1F07BB3900F0E5CB /* Youtube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Youtube.m; sourceTree = "<group>"; };
+		35FA0F002018E78A005D7199 /* DTEventsSectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTEventsSectionViewController.h; sourceTree = "<group>"; };
+		35FA0F012018E78A005D7199 /* DTEventsSectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTEventsSectionViewController.m; sourceTree = "<group>"; };
+		35FA0F032018EC10005D7199 /* DTColorPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTColorPalette.h; sourceTree = "<group>"; };
+		35FA0F042018EC10005D7199 /* DTColorPalette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTColorPalette.m; sourceTree = "<group>"; };
+		35FA0F052018EC10005D7199 /* USA-HotelMotel.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "USA-HotelMotel.csv"; sourceTree = "<group>"; };
+		35FA0F092018ED16005D7199 /* DTCarouselItemCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTCarouselItemCollectionViewCell.h; sourceTree = "<group>"; };
+		35FA0F0A2018ED16005D7199 /* DTCarouselItemCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTCarouselItemCollectionViewCell.m; sourceTree = "<group>"; };
+		35FA0F0C2018ED26005D7199 /* DTCarouselTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DTCarouselTableViewCell.h; path = TableViewCells/DTCarouselTableViewCell.h; sourceTree = "<group>"; };
+		35FA0F0D2018ED26005D7199 /* DTCarouselTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DTCarouselTableViewCell.m; path = TableViewCells/DTCarouselTableViewCell.m; sourceTree = "<group>"; };
+		35FA0F0F2018F92D005D7199 /* DTMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTMapViewController.h; sourceTree = "<group>"; };
+		35FA0F102018F92D005D7199 /* DTMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTMapViewController.m; sourceTree = "<group>"; };
+		35FA0F132018F95A005D7199 /* TBClusterAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBClusterAnnotation.h; sourceTree = "<group>"; };
+		35FA0F142018F95A005D7199 /* TBClusterAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBClusterAnnotation.m; sourceTree = "<group>"; };
+		35FA0F152018F95A005D7199 /* TBClusterAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBClusterAnnotationView.h; sourceTree = "<group>"; };
+		35FA0F162018F95A005D7199 /* TBClusterAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBClusterAnnotationView.m; sourceTree = "<group>"; };
+		35FA0F172018F95A005D7199 /* TBCoordinateQuadTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCoordinateQuadTree.h; sourceTree = "<group>"; };
+		35FA0F182018F95A005D7199 /* TBCoordinateQuadTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCoordinateQuadTree.m; sourceTree = "<group>"; };
+		35FA0F192018F95A005D7199 /* TBQuadTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBQuadTree.h; sourceTree = "<group>"; };
+		35FA0F1A2018F95A005D7199 /* TBQuadTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBQuadTree.m; sourceTree = "<group>"; };
+		35FCA5211F029539001492C0 /* UIImageView+TerebaImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+TerebaImageView.h"; path = "Categories/UIImageView+TerebaImageView.h"; sourceTree = "<group>"; };
+		35FCA5221F029539001492C0 /* UIImageView+TerebaImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+TerebaImageView.m"; path = "Categories/UIImageView+TerebaImageView.m"; sourceTree = "<group>"; };
+		35FCA5251F02C005001492C0 /* DTDescriptionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DTDescriptionTableViewCell.h; path = TableViewCells/DTDescriptionTableViewCell.h; sourceTree = "<group>"; };
+		35FCA5261F02C005001492C0 /* DTDescriptionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DTDescriptionTableViewCell.m; path = TableViewCells/DTDescriptionTableViewCell.m; sourceTree = "<group>"; };
+		73E60F69030D91D07C25C687 /* Pods_Danish_TheaterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Danish_TheaterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B754B22A3789B59DF9104DA /* Pods-Danish TheaterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Danish TheaterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Danish TheaterTests/Pods-Danish TheaterTests.release.xcconfig"; sourceTree = "<group>"; };
+		99849157D5C3CD6489F4C69C /* Pods-Danish TheaterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Danish TheaterUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Danish TheaterUITests/Pods-Danish TheaterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A979B45C9EF59A9DBCE9A8B1 /* Pods_Danish_TheaterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Danish_TheaterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD079AE9DD38E71F4649AC59 /* Pods-Danish TheaterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Danish TheaterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Danish TheaterTests/Pods-Danish TheaterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB6E3C1A040F58F88D7B3BC1 /* Pods-Danish Theater.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Danish Theater.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Danish Theater/Pods-Danish Theater.debug.xcconfig"; sourceTree = "<group>"; };
+		FD4D8AD078448696C6513E49 /* Pods-Danish Theater.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Danish Theater.release.xcconfig"; path = "Pods/Target Support Files/Pods-Danish Theater/Pods-Danish Theater.release.xcconfig"; sourceTree = "<group>"; };
+		FDC2F2D23C4599BD0F2AEA24 /* Pods-Danish TheaterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Danish TheaterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Danish TheaterUITests/Pods-Danish TheaterUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +345,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				359B2F071F07F4A00048E925 /* AVKit.framework in Frameworks */,
+				35AE8ED31F332A5600675DF9 /* CoreLocation.framework in Frameworks */,
+				359B2F051F07F4670048E925 /* AVFoundation.framework in Frameworks */,
+				357C0D421F06B56C007FC1E7 /* MapKit.framework in Frameworks */,
+				357C0D401F06A9C8007FC1E7 /* EventKit.framework in Frameworks */,
+				338C5694A855E24F196A741E /* Pods_Danish_Theater.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +358,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5E00BE2284204D1BB29D802 /* Pods_Danish_TheaterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,19 +366,141 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BDEAB828AF4E6490F4B7F53 /* Pods_Danish_TheaterUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B6773CD3995E53C6DABF0D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35AE8ED21F332A5600675DF9 /* CoreLocation.framework */,
+				359B2F061F07F4A00048E925 /* AVKit.framework */,
+				359B2F041F07F4670048E925 /* AVFoundation.framework */,
+				357C0D411F06B56C007FC1E7 /* MapKit.framework */,
+				357C0D3F1F06A9C8007FC1E7 /* EventKit.framework */,
+				2AEDA60BD4AFF172B9D11536 /* Pods_Danish_Theater.framework */,
+				A979B45C9EF59A9DBCE9A8B1 /* Pods_Danish_TheaterTests.framework */,
+				73E60F69030D91D07C25C687 /* Pods_Danish_TheaterUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3505DF981F016F1500200B3C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				35C93D0F1FBF279500D8F028 /* Thumbnail.h */,
+				35C93D101FBF279500D8F028 /* Thumbnail.m */,
+				3505DF991F016F2A00200B3C /* Event.h */,
+				3505DF9A1F016F2A00200B3C /* Event.m */,
+				3505DF9E1F017C7B00200B3C /* Accreditation.h */,
+				3505DF9F1F017C7B00200B3C /* Accreditation.m */,
+				3505DFA11F01805900200B3C /* Contact.h */,
+				3505DFA21F01805900200B3C /* Contact.m */,
+				3505DFA41F0182B200200B3C /* TicketOffice.h */,
+				3505DFA51F0182B200200B3C /* TicketOffice.m */,
+				3505DFA71F0183C900200B3C /* TicketInfo.h */,
+				3505DFA81F0183C900200B3C /* TicketInfo.m */,
+				3505DFAA1F01850B00200B3C /* TicketAgencyInfo.h */,
+				3505DFAB1F01850B00200B3C /* TicketAgencyInfo.m */,
+				3505DFAD1F01894900200B3C /* Ticket.h */,
+				3505DFAE1F01894900200B3C /* Ticket.m */,
+				3505DFB01F018ABB00200B3C /* PriceGroup.h */,
+				3505DFB11F018ABB00200B3C /* PriceGroup.m */,
+				3515B1A71F0595AC0064A232 /* Show.h */,
+				3515B1A81F0595AC0064A232 /* Show.m */,
+				3531997D1F08D09200C3CEC9 /* Organization.h */,
+				3531997E1F08D09200C3CEC9 /* Organization.m */,
+				353AA52F1F0BB79300794310 /* Venue.h */,
+				353AA5301F0BB79300794310 /* Venue.m */,
+				353AA5321F0BB7E100794310 /* VenueInfo.h */,
+				353AA5331F0BB7E100794310 /* VenueInfo.m */,
+				35381E142019D55E009D0E3A /* Podcast.h */,
+				35381E152019D55E009D0E3A /* Podcast.m */,
+				3537619E2019E3BA006C8639 /* Episode.h */,
+				3537619F2019E3BA006C8639 /* Episode.m */,
+				3570117120239D3500DE2B94 /* SearchItem.h */,
+				3570117220239D3500DE2B94 /* SearchItem.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3510429A1F019136001DCCEF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3510429B1F019162001DCCEF /* DTEventDetailTableViewHeaderView.h */,
+				3510429C1F019162001DCCEF /* DTEventDetailTableViewHeaderView.m */,
+				356071031F08F7F5006C1CEF /* DTOrganizationDetailTableHeaderView.h */,
+				356071041F08F7F5006C1CEF /* DTOrganizationDetailTableHeaderView.m */,
+				352456A41F3363D6004DB3C2 /* DTThumbnailView.h */,
+				352456A51F3363D6004DB3C2 /* DTThumbnailView.m */,
+				35381CB12019CDEF009D0E3A /* DTPodcastDetailTableViewHeaderView.h */,
+				35381CB22019CDEF009D0E3A /* DTPodcastDetailTableViewHeaderView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3510429E1F019763001DCCEF /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				3510429F1F01977A001DCCEF /* DTBookButton.h */,
+				351042A01F01977A001DCCEF /* DTBookButton.m */,
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+		353AA5381F0BEA2000794310 /* TableViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				353AA5391F0BEA4D00794310 /* DTGenresMasterViewController.h */,
+				353AA53A1F0BEA4D00794310 /* DTGenresMasterViewController.m */,
+			);
+			name = TableViewControllers;
+			sourceTree = "<group>";
+		};
+		35616C851F31C36B009D0AEC /* haversine-objc */ = {
+			isa = PBXGroup;
+			children = (
+				35616C861F31C36B009D0AEC /* Haversine.h */,
+				35616C871F31C36B009D0AEC /* Haversine.m */,
+			);
+			path = "haversine-objc";
+			sourceTree = "<group>";
+		};
+		3562E7261F08D74000122F8E /* TableViewHeaderFooterView */ = {
+			isa = PBXGroup;
+			children = (
+				3562E7271F08D79C00122F8E /* DTTableViewOrganizationHeaderView.h */,
+				3562E7281F08D79C00122F8E /* DTTableViewOrganizationHeaderView.m */,
+				35AE8ED61F332EFA00675DF9 /* DTCalendarTableViewHeaderView.h */,
+				35AE8ED71F332EFA00675DF9 /* DTCalendarTableViewHeaderView.m */,
+			);
+			name = TableViewHeaderFooterView;
+			sourceTree = "<group>";
+		};
+		35AD19F91F3C529400C8DB7A /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				35AD19FA1F3C529400C8DB7A /* Reachability.h */,
+				35AD19FB1F3C529400C8DB7A /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
 		35C2C5BB1F0169FC008AEFFD = {
 			isa = PBXGroup;
 			children = (
+				35D654301FBCF96A008CB622 /* Danish-Theater-Bridging-Header.h */,
+				35D654311FBCF96A008CB622 /* UILabel+Highlighting.swift */,
 				35C2C5C61F0169FD008AEFFD /* Danish Theater */,
 				35C2C5E01F0169FD008AEFFD /* Danish TheaterTests */,
 				35C2C5EB1F0169FD008AEFFD /* Danish TheaterUITests */,
 				35C2C5C51F0169FD008AEFFD /* Products */,
+				0B6773CD3995E53C6DABF0D5 /* Frameworks */,
+				35D6542F1FBCF969008CB622 /* Danish Theater-Bridging-Header.h */,
+				E932878105568F0081EDE5AA /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +517,43 @@
 		35C2C5C61F0169FD008AEFFD /* Danish Theater */ = {
 			isa = PBXGroup;
 			children = (
+				3587AE2B20B602C20007C618 /* LobsterTwo-BoldItalic.ttf */,
+				3586F584201A5FBD005FC048 /* Danish Theater.entitlements */,
+				35FA0F122018F95A005D7199 /* TBAnnotationClustering */,
+				35FA0F082018ED16005D7199 /* CollectionViewCells */,
+				35FA0F032018EC10005D7199 /* DTColorPalette.h */,
+				35FA0F042018EC10005D7199 /* DTColorPalette.m */,
+				35FA0F052018EC10005D7199 /* USA-HotelMotel.csv */,
+				35378FCD2017672F00566ABC /* DTQuery.h */,
+				35378FCE2017672F00566ABC /* DTQuery.m */,
+				355AF3A91F3F66590028C10E /* DTEmptyDataSetStatesDefines.h */,
+				35AD19F91F3C529400C8DB7A /* Reachability */,
+				358EB0DE1F388AFC007A9AED /* DanishTheater.h */,
+				358EB0DF1F388AFC007A9AED /* DanishTheater.m */,
+				35AE8ED41F332D0C00675DF9 /* default.gpx */,
+				35616C851F31C36B009D0AEC /* haversine-objc */,
+				35DA95AA1F31B35200FF8148 /* GeoLocation */,
+				353AA5381F0BEA2000794310 /* TableViewControllers */,
+				3562E7261F08D74000122F8E /* TableViewHeaderFooterView */,
+				35F8EE171F07BB3900F0E5CB /* Trailer */,
+				3515B1AD1F05A2DC0064A232 /* FXBlurView.h */,
+				3515B1AE1F05A2DC0064A232 /* FXBlurView.m */,
+				35FCA5241F02BFDA001492C0 /* TableViewCells */,
+				35E245951F02907300870397 /* Categories */,
+				3510429E1F019763001DCCEF /* Buttons */,
+				3510429A1F019136001DCCEF /* Views */,
+				3505DF981F016F1500200B3C /* Models */,
+				35CF9A0E1F016B37006740B0 /* ViewControllers */,
 				35C2C5CA1F0169FD008AEFFD /* AppDelegate.h */,
 				35C2C5CB1F0169FD008AEFFD /* AppDelegate.m */,
-				35C2C5CD1F0169FD008AEFFD /* ViewController.h */,
-				35C2C5CE1F0169FD008AEFFD /* ViewController.m */,
 				35C2C5D01F0169FD008AEFFD /* Main.storyboard */,
 				35C2C5D31F0169FD008AEFFD /* Assets.xcassets */,
 				35C2C5D51F0169FD008AEFFD /* LaunchScreen.storyboard */,
+				35CF9A061F016AC0006740B0 /* GoogleService-Info.plist */,
 				35C2C5D81F0169FD008AEFFD /* Info.plist */,
 				35C2C5C71F0169FD008AEFFD /* Supporting Files */,
+				35B458A41F38FC5C00013856 /* Localizable.strings */,
+				354352911F39B9BA00878985 /* InfoPlist.strings */,
 			);
 			path = "Danish Theater";
 			sourceTree = "<group>";
@@ -140,6 +584,165 @@
 			path = "Danish TheaterUITests";
 			sourceTree = "<group>";
 		};
+		35CF9A0E1F016B37006740B0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				35CF9A0F1F016B37006740B0 /* DTEventDetailViewController.h */,
+				35CF9A101F016B37006740B0 /* DTEventDetailViewController.m */,
+				35D962461F405470001CD028 /* DTOrganizationDetailViewController.h */,
+				35D962471F405470001CD028 /* DTOrganizationDetailViewController.m */,
+				355484F61F016D27005FA0F3 /* DTHomepageViewController.h */,
+				355484F71F016D27005FA0F3 /* DTHomepageViewController.m */,
+				3515B1A41F0591120064A232 /* DTShowsViewController.h */,
+				3515B1A51F0591120064A232 /* DTShowsViewController.m */,
+				35F8EE101F07999C00F0E5CB /* DTCreditsViewController.h */,
+				35F8EE111F07999C00F0E5CB /* DTCreditsViewController.m */,
+				35F8EE131F07A18D00F0E5CB /* DTServicesViewController.h */,
+				35F8EE141F07A18D00F0E5CB /* DTServicesViewController.m */,
+				353AA53C1F0BEB4800794310 /* DTGenresDetailViewController.h */,
+				353AA53D1F0BEB4800794310 /* DTGenresDetailViewController.m */,
+				3565A6361F0C1AE10024062F /* DTSearchViewController.h */,
+				3565A6371F0C1AE10024062F /* DTSearchViewController.m */,
+				35E84CC71FBDB359002F565E /* DTSearchResultsViewController.h */,
+				35E84CC81FBDB359002F565E /* DTSearchResultsViewController.m */,
+				35ACE24E1F168DCC00350FE3 /* DTKidsViewController.h */,
+				35ACE24F1F168DCC00350FE3 /* DTKidsViewController.m */,
+				35FA0F002018E78A005D7199 /* DTEventsSectionViewController.h */,
+				35FA0F012018E78A005D7199 /* DTEventsSectionViewController.m */,
+				357846151F322C7500756E27 /* DTMunicipalityPickerController.h */,
+				357846161F322C7500756E27 /* DTMunicipalityPickerController.m */,
+				35AE8ECF1F3317FA00675DF9 /* DTCalendarViewController.h */,
+				35AE8ED01F3317FA00675DF9 /* DTCalendarViewController.m */,
+				352456A11F336384004DB3C2 /* DTFavoritesViewController.h */,
+				352456A21F336384004DB3C2 /* DTFavoritesViewController.m */,
+				35FA0F0F2018F92D005D7199 /* DTMapViewController.h */,
+				35FA0F102018F92D005D7199 /* DTMapViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		35DA95AA1F31B35200FF8148 /* GeoLocation */ = {
+			isa = PBXGroup;
+			children = (
+				35DA95AB1F31B35200FF8148 /* GeoLocation.h */,
+				35DA95AC1F31B35200FF8148 /* GeoLocation.m */,
+				35DA95AE1F31B80900FF8148 /* IPAddress.h */,
+				35DA95AF1F31B80A00FF8148 /* IPAddress.m */,
+			);
+			path = GeoLocation;
+			sourceTree = "<group>";
+		};
+		35E245951F02907300870397 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				35A1B6822023467500ECB543 /* NSString+Levenshtein.h */,
+				35A1B6832023467500ECB543 /* NSString+Levenshtein.m */,
+				3515B19E1F05219F0064A232 /* NSString+FormatHelpers.h */,
+				3515B19F1F05219F0064A232 /* NSString+FormatHelpers.m */,
+				35FCA5211F029539001492C0 /* UIImageView+TerebaImageView.h */,
+				35FCA5221F029539001492C0 /* UIImageView+TerebaImageView.m */,
+				353199801F08D5C200C3CEC9 /* UIColor+ColorFromHexadecimal.h */,
+				353199811F08D5C200C3CEC9 /* UIColor+ColorFromHexadecimal.m */,
+				351E11471F13D35D00EDFAF6 /* NSDate+Helpers.h */,
+				351E11481F13D35D00EDFAF6 /* NSDate+Helpers.m */,
+				35C6AD431F2261500024BFA9 /* FIRDatabaseReference+ChildreCount.h */,
+				35C6AD441F2261500024BFA9 /* FIRDatabaseReference+ChildreCount.m */,
+				356C2BBF1F379DC200EFBFF5 /* UINavigationBar+Visibility.h */,
+				356C2BC01F379DC200EFBFF5 /* UINavigationBar+Visibility.m */,
+				356C2BC21F37A56E00EFBFF5 /* UIImageView+TextProtection.h */,
+				356C2BC31F37A56E00EFBFF5 /* UIImageView+TextProtection.m */,
+				358EB0E11F3890CA007A9AED /* UIBarButtonItem+DTBackButtonItem.h */,
+				358EB0E21F3890CA007A9AED /* UIBarButtonItem+DTBackButtonItem.m */,
+				35B458991F38E14A00013856 /* UIAlertController+Helpers.h */,
+				35B4589A1F38E14A00013856 /* UIAlertController+Helpers.m */,
+				35AE81051F3B0234002813D9 /* UIScrollView+DTPreloading.h */,
+				35AE81061F3B0234002813D9 /* UIScrollView+DTPreloading.m */,
+				35AD19F61F3C524F00C8DB7A /* UIApplication+Reachability.h */,
+				35AD19F71F3C524F00C8DB7A /* UIApplication+Reachability.m */,
+				35AD19FD1F3C579D00C8DB7A /* NSAttributedString+EmptyDataSet.h */,
+				35AD19FE1F3C579D00C8DB7A /* NSAttributedString+EmptyDataSet.m */,
+				355AF3A61F3F3B950028C10E /* UIImage+Tint.h */,
+				355AF3A71F3F3B950028C10E /* UIImage+Tint.m */,
+				35CC9C6E1FBC964400199AF3 /* UITableView+DetectFloatingHeader.h */,
+				35CC9C6F1FBC964400199AF3 /* UITableView+DetectFloatingHeader.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		35F8EE171F07BB3900F0E5CB /* Trailer */ = {
+			isa = PBXGroup;
+			children = (
+				35F8EE181F07BB3900F0E5CB /* Trailer.h */,
+				35F8EE191F07BB3900F0E5CB /* Trailer.m */,
+				35F8EE1A1F07BB3900F0E5CB /* Vimeo.h */,
+				35F8EE1B1F07BB3900F0E5CB /* Vimeo.m */,
+				35F8EE1C1F07BB3900F0E5CB /* Youtube.h */,
+				35F8EE1D1F07BB3900F0E5CB /* Youtube.m */,
+			);
+			path = Trailer;
+			sourceTree = "<group>";
+		};
+		35FA0F082018ED16005D7199 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				35FA0F092018ED16005D7199 /* DTCarouselItemCollectionViewCell.h */,
+				35FA0F0A2018ED16005D7199 /* DTCarouselItemCollectionViewCell.m */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		35FA0F122018F95A005D7199 /* TBAnnotationClustering */ = {
+			isa = PBXGroup;
+			children = (
+				35FA0F132018F95A005D7199 /* TBClusterAnnotation.h */,
+				35FA0F142018F95A005D7199 /* TBClusterAnnotation.m */,
+				35FA0F152018F95A005D7199 /* TBClusterAnnotationView.h */,
+				35FA0F162018F95A005D7199 /* TBClusterAnnotationView.m */,
+				35FA0F172018F95A005D7199 /* TBCoordinateQuadTree.h */,
+				35FA0F182018F95A005D7199 /* TBCoordinateQuadTree.m */,
+				35FA0F192018F95A005D7199 /* TBQuadTree.h */,
+				35FA0F1A2018F95A005D7199 /* TBQuadTree.m */,
+			);
+			name = TBAnnotationClustering;
+			path = ViewControllers/TBAnnotationClustering;
+			sourceTree = "<group>";
+		};
+		35FCA5241F02BFDA001492C0 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				35FA0F0C2018ED26005D7199 /* DTCarouselTableViewCell.h */,
+				35FA0F0D2018ED26005D7199 /* DTCarouselTableViewCell.m */,
+				35FCA5251F02C005001492C0 /* DTDescriptionTableViewCell.h */,
+				35FCA5261F02C005001492C0 /* DTDescriptionTableViewCell.m */,
+				359817171F02D639007208A2 /* DTInformationTableViewCell.h */,
+				359817181F02D639007208A2 /* DTInformationTableViewCell.m */,
+				3515B1AA1F0599690064A232 /* DTShowTableViewCell.h */,
+				3515B1AB1F0599690064A232 /* DTShowTableViewCell.m */,
+				353AA5291F0BB23500794310 /* DTVenueTableViewCell.h */,
+				353AA52A1F0BB23500794310 /* DTVenueTableViewCell.m */,
+				358326BE1F210C64006C428D /* DTLoadingTableViewCell.h */,
+				358326BF1F210C64006C428D /* DTLoadingTableViewCell.m */,
+				35E88B2A1F264E1200C167E4 /* DTTableViewCell.h */,
+				35E88B2B1F264E1200C167E4 /* DTTableViewCell.m */,
+				35AAB2601F272F1800B2DEF5 /* DTSectionTableViewCell.h */,
+				35AAB2611F272F1800B2DEF5 /* DTSectionTableViewCell.m */,
+			);
+			name = TableViewCells;
+			sourceTree = "<group>";
+		};
+		E932878105568F0081EDE5AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB6E3C1A040F58F88D7B3BC1 /* Pods-Danish Theater.debug.xcconfig */,
+				FD4D8AD078448696C6513E49 /* Pods-Danish Theater.release.xcconfig */,
+				BD079AE9DD38E71F4649AC59 /* Pods-Danish TheaterTests.debug.xcconfig */,
+				8B754B22A3789B59DF9104DA /* Pods-Danish TheaterTests.release.xcconfig */,
+				99849157D5C3CD6489F4C69C /* Pods-Danish TheaterUITests.debug.xcconfig */,
+				FDC2F2D23C4599BD0F2AEA24 /* Pods-Danish TheaterUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +750,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35C2C5F11F0169FD008AEFFD /* Build configuration list for PBXNativeTarget "Danish Theater" */;
 			buildPhases = (
+				D2F92F953EC6BBF987C4B163 /* [CP] Check Pods Manifest.lock */,
 				35C2C5C01F0169FC008AEFFD /* Sources */,
 				35C2C5C11F0169FC008AEFFD /* Frameworks */,
 				35C2C5C21F0169FC008AEFFD /* Resources */,
+				35694CFD1F3A242C009EB830 /* ShellScript */,
+				9A6CBB2D0B6565A1A8C69443 /* [CP] Embed Pods Frameworks */,
+				35FB31FF2054781400102CB9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -164,6 +771,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35C2C5F41F0169FD008AEFFD /* Build configuration list for PBXNativeTarget "Danish TheaterTests" */;
 			buildPhases = (
+				3AA61F6B39481A838A026498 /* [CP] Check Pods Manifest.lock */,
 				35C2C5D91F0169FD008AEFFD /* Sources */,
 				35C2C5DA1F0169FD008AEFFD /* Frameworks */,
 				35C2C5DB1F0169FD008AEFFD /* Resources */,
@@ -182,6 +790,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35C2C5F71F0169FD008AEFFD /* Build configuration list for PBXNativeTarget "Danish TheaterUITests" */;
 			buildPhases = (
+				A20ED8B8AC6655FBBB145399 /* [CP] Check Pods Manifest.lock */,
 				35C2C5E41F0169FD008AEFFD /* Sources */,
 				35C2C5E51F0169FD008AEFFD /* Frameworks */,
 				35C2C5E61F0169FD008AEFFD /* Resources */,
@@ -202,23 +811,33 @@
 		35C2C5BC1F0169FC008AEFFD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Daniel Ran Lehmann";
 				TargetAttributes = {
 					35C2C5C31F0169FC008AEFFD = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 655US6229G;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+						};
 					};
 					35C2C5DC1F0169FD008AEFFD = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 655US6229G;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 35C2C5C31F0169FC008AEFFD;
 					};
 					35C2C5E71F0169FD008AEFFD = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 655US6229G;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 35C2C5C31F0169FC008AEFFD;
 					};
@@ -231,6 +850,7 @@
 			knownRegions = (
 				en,
 				Base,
+				da,
 			);
 			mainGroup = 35C2C5BB1F0169FC008AEFFD;
 			productRefGroup = 35C2C5C51F0169FD008AEFFD /* Products */;
@@ -249,9 +869,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3587AE2C20B6034A0007C618 /* LobsterTwo-BoldItalic.ttf in Resources */,
 				35C2C5D71F0169FD008AEFFD /* LaunchScreen.storyboard in Resources */,
+				35CF9A071F016AC0006740B0 /* GoogleService-Info.plist in Resources */,
 				35C2C5D41F0169FD008AEFFD /* Assets.xcassets in Resources */,
+				35B458A21F38FC5C00013856 /* Localizable.strings in Resources */,
 				35C2C5D21F0169FD008AEFFD /* Main.storyboard in Resources */,
+				35AE8ED51F332D0C00675DF9 /* default.gpx in Resources */,
+				35FA0F072018EC10005D7199 /* USA-HotelMotel.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,14 +896,220 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		35694CFD1F3A242C009EB830 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" a790f41c6852c9773834bc5ee0be53db0219b61c cd093d5d19708a60e647c1ccced6f2ac60741741f5a97f3c5b4a335f22953352\n";
+		};
+		3AA61F6B39481A838A026498 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Danish TheaterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A6CBB2D0B6565A1A8C69443 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Danish Theater/Pods-Danish Theater-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/AYVibrantButton/AYVibrantButton.framework",
+				"${BUILT_PRODUCTS_DIR}/AlgoliaSearch-Client-Swift/AlgoliaSearch.framework",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/Geokeys/Geokeys.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/HCYoutubeParser/HCYoutubeParser.framework",
+				"${BUILT_PRODUCTS_DIR}/InstantSearch-Core-Swift/InstantSearchCore.framework",
+				"${BUILT_PRODUCTS_DIR}/Mantle/Mantle.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialControls/MaterialControls.framework",
+				"${BUILT_PRODUCTS_DIR}/OrderedDictionary/OrderedDictionary.framework",
+				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Shimmer/Shimmer.framework",
+				"${BUILT_PRODUCTS_DIR}/TLYShyNavBar/TLYShyNavBar.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AYVibrantButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlgoliaSearch.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Geokeys.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HCYoutubeParser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InstantSearchCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mantle.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialControls.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OrderedDictionary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Shimmer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TLYShyNavBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Danish Theater/Pods-Danish Theater-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A20ED8B8AC6655FBBB145399 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Danish TheaterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2F92F953EC6BBF987C4B163 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Danish Theater-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		35C2C5C01F0169FC008AEFFD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35C2C5CF1F0169FD008AEFFD /* ViewController.m in Sources */,
+				3565A6381F0C1AE10024062F /* DTSearchViewController.m in Sources */,
+				35FCA5231F02953A001492C0 /* UIImageView+TerebaImageView.m in Sources */,
+				35C6AD451F2261500024BFA9 /* FIRDatabaseReference+ChildreCount.m in Sources */,
+				353AA53E1F0BEB4800794310 /* DTGenresDetailViewController.m in Sources */,
+				351042A11F01977A001DCCEF /* DTBookButton.m in Sources */,
+				3515B1A01F05219F0064A232 /* NSString+FormatHelpers.m in Sources */,
+				35FA0F1B2018F95A005D7199 /* TBClusterAnnotation.m in Sources */,
+				35A1B6842023467500ECB543 /* NSString+Levenshtein.m in Sources */,
+				35F8EE121F07999C00F0E5CB /* DTCreditsViewController.m in Sources */,
+				358EB0E01F388AFC007A9AED /* DanishTheater.m in Sources */,
+				35FCA5271F02C005001492C0 /* DTDescriptionTableViewCell.m in Sources */,
+				35F8EE1F1F07BB3900F0E5CB /* Vimeo.m in Sources */,
+				35381E162019D55E009D0E3A /* Podcast.m in Sources */,
+				35CC9C701FBC964400199AF3 /* UITableView+DetectFloatingHeader.m in Sources */,
+				35D962481F405470001CD028 /* DTOrganizationDetailViewController.m in Sources */,
+				35CF9A111F016B37006740B0 /* DTEventDetailViewController.m in Sources */,
+				357846171F322C7500756E27 /* DTMunicipalityPickerController.m in Sources */,
+				35DA95AD1F31B35200FF8148 /* GeoLocation.m in Sources */,
+				35E88B2C1F264E1200C167E4 /* DTTableViewCell.m in Sources */,
+				3515B1A91F0595AC0064A232 /* Show.m in Sources */,
+				353AA53B1F0BEA4D00794310 /* DTGenresMasterViewController.m in Sources */,
+				35FA0F062018EC10005D7199 /* DTColorPalette.m in Sources */,
+				3505DFA61F0182B200200B3C /* TicketOffice.m in Sources */,
+				35AE81071F3B0234002813D9 /* UIScrollView+DTPreloading.m in Sources */,
+				35FA0F0E2018ED26005D7199 /* DTCarouselTableViewCell.m in Sources */,
+				35ACE2501F168DCC00350FE3 /* DTKidsViewController.m in Sources */,
+				35C93D111FBF279500D8F028 /* Thumbnail.m in Sources */,
+				35AE8ED81F332EFA00675DF9 /* DTCalendarTableViewHeaderView.m in Sources */,
+				353199821F08D5C200C3CEC9 /* UIColor+ColorFromHexadecimal.m in Sources */,
+				353AA52B1F0BB23500794310 /* DTVenueTableViewCell.m in Sources */,
+				35AE8ED11F3317FA00675DF9 /* DTCalendarViewController.m in Sources */,
+				35378FCF2017672F00566ABC /* DTQuery.m in Sources */,
+				3515B1A61F0591120064A232 /* DTShowsViewController.m in Sources */,
+				353761A02019E3BA006C8639 /* Episode.m in Sources */,
+				35F8EE151F07A18D00F0E5CB /* DTServicesViewController.m in Sources */,
+				35F8EE201F07BB3900F0E5CB /* Youtube.m in Sources */,
+				358326C01F210C64006C428D /* DTLoadingTableViewCell.m in Sources */,
+				3510429D1F019162001DCCEF /* DTEventDetailTableViewHeaderView.m in Sources */,
+				3505DFAC1F01850B00200B3C /* TicketAgencyInfo.m in Sources */,
+				3515B1AF1F05A2DC0064A232 /* FXBlurView.m in Sources */,
+				3515B1AC1F0599690064A232 /* DTShowTableViewCell.m in Sources */,
 				35C2C5CC1F0169FD008AEFFD /* AppDelegate.m in Sources */,
+				352456A31F336384004DB3C2 /* DTFavoritesViewController.m in Sources */,
+				35FA0F1C2018F95A005D7199 /* TBClusterAnnotationView.m in Sources */,
+				35D654321FBCF96A008CB622 /* UILabel+Highlighting.swift in Sources */,
+				35DA95B01F31B80A00FF8148 /* IPAddress.m in Sources */,
+				35FA0F022018E78A005D7199 /* DTEventsSectionViewController.m in Sources */,
+				355AF3A81F3F3B950028C10E /* UIImage+Tint.m in Sources */,
+				3505DFA01F017C7B00200B3C /* Accreditation.m in Sources */,
+				359817191F02D639007208A2 /* DTInformationTableViewCell.m in Sources */,
+				358EB0E31F3890CA007A9AED /* UIBarButtonItem+DTBackButtonItem.m in Sources */,
+				35F8EE1E1F07BB3900F0E5CB /* Trailer.m in Sources */,
+				35FA0F1D2018F95A005D7199 /* TBCoordinateQuadTree.m in Sources */,
+				3570117320239D3500DE2B94 /* SearchItem.m in Sources */,
+				3562E7291F08D79C00122F8E /* DTTableViewOrganizationHeaderView.m in Sources */,
+				35AD19FC1F3C529400C8DB7A /* Reachability.m in Sources */,
+				353AA5311F0BB79300794310 /* Venue.m in Sources */,
+				3505DF9B1F016F2A00200B3C /* Event.m in Sources */,
+				35AD19F81F3C524F00C8DB7A /* UIApplication+Reachability.m in Sources */,
+				352456A61F3363D6004DB3C2 /* DTThumbnailView.m in Sources */,
+				351E11491F13D35D00EDFAF6 /* NSDate+Helpers.m in Sources */,
+				3505DFA31F01805900200B3C /* Contact.m in Sources */,
+				356C2BC11F379DC200EFBFF5 /* UINavigationBar+Visibility.m in Sources */,
+				355484F81F016D27005FA0F3 /* DTHomepageViewController.m in Sources */,
+				35381CB32019CDEF009D0E3A /* DTPodcastDetailTableViewHeaderView.m in Sources */,
+				35FA0F112018F92D005D7199 /* DTMapViewController.m in Sources */,
+				35FA0F1E2018F95A005D7199 /* TBQuadTree.m in Sources */,
+				3505DFAF1F01894900200B3C /* Ticket.m in Sources */,
+				356071051F08F7F5006C1CEF /* DTOrganizationDetailTableHeaderView.m in Sources */,
+				3505DFA91F0183C900200B3C /* TicketInfo.m in Sources */,
+				35B4589B1F38E14A00013856 /* UIAlertController+Helpers.m in Sources */,
 				35C2C5C91F0169FD008AEFFD /* main.m in Sources */,
+				356C2BC41F37A56E00EFBFF5 /* UIImageView+TextProtection.m in Sources */,
+				35AD19FF1F3C579D00C8DB7A /* NSAttributedString+EmptyDataSet.m in Sources */,
+				3531997F1F08D09200C3CEC9 /* Organization.m in Sources */,
+				353AA5341F0BB7E100794310 /* VenueInfo.m in Sources */,
+				35AAB2621F272F1800B2DEF5 /* DTSectionTableViewCell.m in Sources */,
+				3505DFB21F018ABB00200B3C /* PriceGroup.m in Sources */,
+				35FA0F0B2018ED16005D7199 /* DTCarouselItemCollectionViewCell.m in Sources */,
+				35616C881F31C36B009D0AEC /* Haversine.m in Sources */,
+				35E84CC91FBDB359002F565E /* DTSearchResultsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,10 +1145,29 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		354352911F39B9BA00878985 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				354352901F39B9BA00878985 /* en */,
+				354352921F39B9BD00878985 /* da */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		35B458A41F38FC5C00013856 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35B458A31F38FC5C00013856 /* en */,
+				35B458A71F38FCCC00013856 /* da */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		35C2C5D01F0169FD008AEFFD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				35C2C5D11F0169FD008AEFFD /* Base */,
+				35B458A51F38FCCC00013856 /* da */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -326,6 +1176,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				35C2C5D61F0169FD008AEFFD /* Base */,
+				35B458A61F38FCCC00013856 /* da */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -337,6 +1188,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -351,12 +1203,14 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -384,6 +1238,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -398,12 +1253,14 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -417,80 +1274,118 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		35C2C5F21F0169FD008AEFFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB6E3C1A040F58F88D7B3BC1 /* Pods-Danish Theater.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 655US6229G;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Danish Theater/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.danielranlehmann.Danish-Theater";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daniellehmann.danish-theater";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Danish Theater-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		35C2C5F31F0169FD008AEFFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD4D8AD078448696C6513E49 /* Pods-Danish Theater.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 655US6229G;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Danish Theater/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.danielranlehmann.Danish-Theater";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daniellehmann.danish-theater";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Danish Theater-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		35C2C5F51F0169FD008AEFFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD079AE9DD38E71F4649AC59 /* Pods-Danish TheaterTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 655US6229G;
 				INFOPLIST_FILE = "Danish TheaterTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.danielranlehmann.Danish-TheaterTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Danish Theater.app/Danish Theater";
 			};
 			name = Debug;
 		};
 		35C2C5F61F0169FD008AEFFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B754B22A3789B59DF9104DA /* Pods-Danish TheaterTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 655US6229G;
 				INFOPLIST_FILE = "Danish TheaterTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.danielranlehmann.Danish-TheaterTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Danish Theater.app/Danish Theater";
 			};
 			name = Release;
 		};
 		35C2C5F81F0169FD008AEFFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99849157D5C3CD6489F4C69C /* Pods-Danish TheaterUITests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 655US6229G;
 				INFOPLIST_FILE = "Danish TheaterUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.danielranlehmann.Danish-TheaterUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Danish Theater";
 			};
 			name = Debug;
 		};
 		35C2C5F91F0169FD008AEFFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDC2F2D23C4599BD0F2AEA24 /* Pods-Danish TheaterUITests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 655US6229G;
 				INFOPLIST_FILE = "Danish TheaterUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.danielranlehmann.Danish-TheaterUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Danish Theater";
 			};
 			name = Release;
@@ -514,6 +1409,7 @@
 				35C2C5F31F0169FD008AEFFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		35C2C5F41F0169FD008AEFFD /* Build configuration list for PBXNativeTarget "Danish TheaterTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +1418,7 @@
 				35C2C5F61F0169FD008AEFFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		35C2C5F71F0169FD008AEFFD /* Build configuration list for PBXNativeTarget "Danish TheaterUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +1427,7 @@
 				35C2C5F91F0169FD008AEFFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

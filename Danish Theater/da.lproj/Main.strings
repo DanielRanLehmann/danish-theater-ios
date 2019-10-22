@@ -1,0 +1,18 @@
+
+/* Class = "UITabBarItem"; title = "Calendar"; ObjectID = "6j4-sQ-pUG"; */
+"6j4-sQ-pUG.title" = "Calendar";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "ZEe-M8-I5b"; */
+"ZEe-M8-I5b.text" = "Title";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "boX-IR-BSe"; */
+"boX-IR-BSe.title" = "Home";
+
+/* Class = "UINavigationItem"; title = "Root View Controller"; ObjectID = "gbJ-4Q-sdg"; */
+"gbJ-4Q-sdg.title" = "Root View Controller";
+
+/* Class = "UITabBarItem"; title = "Genres"; ObjectID = "oNC-gs-D33"; */
+"oNC-gs-D33.title" = "Genres";
+
+/* Class = "UITabBarItem"; title = "Kids"; ObjectID = "rHC-jm-qwj"; */
+"rHC-jm-qwj.title" = "Kids";

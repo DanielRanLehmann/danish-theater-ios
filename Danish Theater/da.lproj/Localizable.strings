@@ -1,0 +1,175 @@
+/* 
+  Localizable.strings
+  Danish Theater
+
+  Created by Daniel Ran Lehmann on 8/7/17.
+  Copyright © 2017 Daniel Ran Lehmann. All rights reserved.
+*/
+
+"APP_NAME" = "Dansk Teater";
+
+"HOMEPAGE_TITLE" = "Startside";
+"CALENDAR_TITLE" = "Kalender";
+"GENRES_TITLE" = "Genrer";
+"SEARCH_TITLE" = "Søg";
+"KIDS_TITLE" = "Børn & Unge";
+
+// HOMEPAGE - SHORTCUT TITLES
+"GENRES_SHORTCUT_TITLE" = "Genres";
+"CALENDAR_SHORTCUT_TITLE" = "Kalender";
+"MAP_SHORTCUT_TITLE" = "Kort";
+"PODCAST_SHORTCUT_TITLE" = "Podcast - Den 4. Væg";
+
+// NAVBAR TITLES
+"MUNICIPALITIES_NAVBAR_TITLE" = "Kommuner";
+"LOADING_NAVBAR_TITLE" = "Indlæser";
+"FAVORITES_NAVBAR_TITLE" = "Favoritter";
+
+// bar button items
+"CLEAR_ALL_ITEM_TITLE" = "Slet Alle";
+"CANCEL_ITEM_TITLE" = "Annuller";
+"BACK_ITEM_TITLE" = "Tilbage";
+"FAVORITES_ITEM_TITLE" = "Favoritter";
+
+// BOOLS
+"YES" = "Ja";
+"NO" = "Nej";
+
+// EVENT DETAIL VIEWCONTROLLER
+"BOOK_BTN_TITLE" = "Bestil Billetter";
+"FREE_TEXT" = "Gratis";
+
+"DESCRIPTION_HEADER_TITLE" = "Beskrivelse";
+"DESCRIPTION_TEXT_EMPTY" = "Ingen Beskrivelse";
+
+"MORE_LINK_TEXT" = "mere";
+
+"INFORMATION_HEADER_TITLE" = "Information";
+
+"DURATION_TEXT" = "Længde";
+"DURATION_TEXT_EMPTY" = "Ingen Længde";
+"DURATION_DETAIL_TEXT_SUFFIX" = "minutter";
+
+"AGE_RANGE_TEXT" = "Aldersgruppe";
+
+// used in information cell and kids sections.
+"YEARS_AND_UP_SUFFIX_TEXT" = "år og opefter";
+"YEARS_SUFFIX_TEXT" = "år";
+"EVERYBODY_SUFFIX_TEXT" = "Primært For Voksne"; //"Alle";
+//
+
+"WEBSITE_TEXT" = "Hjemmeside";
+
+"GENRE_TEXT" = "Genre";
+
+"SUBGENRE_TEXT" = "Undergenre";
+
+"INTERMISSION_TEXT" = "Pause";
+"VERBAL_TEXT" = "Verbal";
+"NUMBERED_SEATS_TEXT" = "Nummereret Sæder";
+
+"RELEASE_DATE_TEXT" = "Udgivelses Dato";
+
+"SERVICES_TEXT" = "Ydelser";
+
+"CREDITS_TEXT" = "Kreditter";
+
+"SHOWS_TEXT" = "Spilletidspunkter";
+
+"TICKET_OFFICE_TEXT" = "Billet Kontor";
+
+"NONE_TEXT" = "Ingen";
+
+"YOU_MAY_ALSO_LIKE_HEADER_TITLE" = "Du Vil Måske Også Kunne Lide";
+
+// --> TICKET OFFICE ALERT CONTROLLER
+"ALERT_ACTION_TITLE_CALL" = "Ring";
+"TICKET_OFFICE_ALERT_CONTROLLER_MESSAGE" = "Yderligere gebyrer kan træde i kraft.";
+
+// ALERT ACTION TITLES
+"ALERT_ACTION_TITLE_OPEN" = "Åben";
+"ALERT_ACTION_TITLE_SHARE" = "Del";
+"ALERT_ACTION_TITLE_FAVORITE" = "Tilføj til Favoritter";
+"ALERT_ACTION_TITLE_UNFAVORITE" = "Fjern fra Favoritter";
+"ALERT_ACTION_TITLE_CANCEL" = "Annuller";
+
+// SHOW ALERT SPECIFIC
+"ALERT_ACTION_TITLE_VIEW_EVENT" = "Vis Begivenhed";
+"ALERT_ACTION_TITLE_VIEW_THEATER" = "Vis Teatret";
+"ALERT_ACTION_TITLE_ADD_TO_CALENDAR" = "Tilføj Til Kalender";
+
+// ORGANIZATION DETAIL VIEWCONTROLLER
+"SEGMENTED_CONTROL_ITEM_TITLE_UPCOMING" = "Kommende";
+"SEGMENTED_CONTROL_ITEM_TITLE_EVENTS" = "Begivenheder";
+"SEGMENTED_CONTROL_ITEM_TITLE_OTHER" = "Andet";
+
+// --> ABOUT SEGMENT
+"GENERAL_MANANGER_TEXT" = "Administrerende Direktør";
+"ARTISTIC_DIRECTOR_TEXT" = "Kunstnerisk Leder";
+"FOUNDED_ON_TEXT" = "Grundlagt";
+
+// CALENDAR VIEW CONTROLLER
+"TABLEVIEW_SECTION_TITLE_TODAY" = "I dag";
+"TABLEVIEW_SECTION_TITLE_TOMORROW" = "I morgen";
+"TABLEVIEW_SECTION_TITLE_THIS_WEEK" = "Denne Uge";
+"TABLEVIEW_SECTION_TITLE_THIS_MONTH" = "Denne Måned";
+
+
+// KIDS VIEWCONTROLLER
+// eg. See 10 More
+"SECTION_CELL_SEE_TEXT" = "Se";
+"SECTION_CELL_MORE_TEXT" = "Mere";
+
+"SECTION_CELL_REMAINING_TEXT" = "Resterende";
+
+// MUNIPICKER VC
+"CURRENT_LOCATION_DETAIL_TEXT" = "Nuværende Lokation";
+
+"SEARCH_PLACEHOLDER_TEXT" = "Søg";
+
+// BEGIN : EMPTY DATA SET STATES
+
+
+"NO_CONTENT_EMPTY_DATA_SET_TITLE" = "Intet Indhold Fundet";
+"NO_FAVORITES_EMPTY_DATA_SET_TITLE" = "Ingen Favoritter";
+
+"NO_CONTENT_EMPTY_DATA_SET_DESCRIPTION" = "Intet Indhold Fundet.";
+"NO_EVENTS_EMPTY_DATA_SET_DESCRIPTION" = "Ingen Begivenheder Fundet.";
+"NO_SHOWS_EMPTY_DATA_SET_DESCRIPTION" = "Ingen Spilletidspunkter Fundet.";
+"NO_FAVORITES_EMPTY_DATA_SET_DESCRIPTION" = "Alle dine yndlingsbegivenheder vil blive gemt her.";
+
+
+"EVENT_NOT_FOUND_DATA_SET_DESCRIPTION" = "Begivenheden du ledte efter eksisterede ikke.";
+"ORGANIZATION_NOT_FOUND_DATA_SET_DESCRIPTION" = "Profilen du ledte efter eksisterede ikke.";
+
+"OFFLINE_EMPTY_DATA_SET_TITLE" = "Ingen Forbindelse";
+"OFFLINE_EMPTY_DATA_SET_DESCRIPTION" = "Se om din enhed har forbindelse til internettet.";
+
+"AN_ERROR_OCCURRED_EMPTY_DATA_SET_TITLE" = "Ups!"; //"Oops!";
+"AN_ERROR_OCCURRED_EMPTY_DATA_SET_DESCRIPTION" = "En fejl opstod under indlæsningen.";
+
+"FAVORITES_EMPTY_DATA_SET_TITLE" = "Ingen Favoritter";
+
+"SEARCH_EMPTY_DATA_SET_TITLE" = "Søg";
+"NO_SEARCH_RESULTS_FOUND_EMPTY_DATA_SET_TITLE" = "Ingen Resultater Fundet";
+"NO_SEARCH_RESULTS_FOUND_EMPTY_DATA_SET_DESCRIPTION" = "Check om du har stavet rigtig og eller prøv et andet søgeord.";
+
+"TRY_AGAIN_EMPTY_DATA_SET_BUTTON_TITLE" = "Prøv Igen";
+
+// END :  OF EMPTY DATA SET STATES
+
+"PLAYING_PERIOD_TEXT" = "Spilleperiode";
+
+"ARE_YOU_SURE_TEXT" = "Er du sikker?";
+
+"SHOW_ADDED_TITLE" = "Tilføjet";
+"SHOW_ADDED_MESSAGE_TEXT" = "Spilletidspunktet er tilføjet til din kalender";
+"SHOW_ACTION_SHOW_TITLE" = "Vis";
+
+"FROM_TEXT" = "Fra";
+
+"SEE_MORE_RESULTS_TEXT" = "Se Flere Resultater";
+"SEE_MORE_TEXT" = "Se Mere";
+
+"SEARCH_EVENTS_HEADER_SECTION_TITLE" = "Begivenheder";
+"SEARCH_ORGANIZATIONS_HEADER_SECTION_TITLE" = "Profiler";
